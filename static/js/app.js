@@ -42,7 +42,7 @@ function getChartOptions(xLabel, yLabel, extraOpts) {
                 ticks: {
                     color: '#aaaaaa',
                     font: { size: 10 },
-                    callback: function(value) {
+                    callback: function (value) {
                         if (Math.abs(value) >= 1000000) return '$' + (value / 1000000).toFixed(1) + 'M';
                         if (Math.abs(value) >= 1000) return '$' + (value / 1000).toFixed(0) + 'K';
                         return '$' + value;
