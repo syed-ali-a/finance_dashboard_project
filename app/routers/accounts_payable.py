@@ -6,7 +6,6 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import AccountsPayable
-from app.schemas import AccountsPayableCreate
 
 router = APIRouter(prefix="/api/accounts-payable", tags=["Accounts Payable"])
 
@@ -106,8 +105,8 @@ def get_accounts_payable_aging(
     }
 
 @router.post("/")
-def create_accounts_payable(data: AccountsPayableCreate, db: Session = Depends(get_db)):
-    new_entry = AccountsPayable(**data.dict())
+def create_accounts_payable(data: dict, db: Session = Depends(get_db)):
+    new_entry = AccountsPayable(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)

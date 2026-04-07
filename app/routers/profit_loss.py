@@ -5,7 +5,6 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import ProfitLossStatement
-from app.schemas import ProfitLossCreate
 
 router = APIRouter(prefix="/api/profit-loss", tags=["Profit & Loss"])
 
@@ -84,8 +83,8 @@ def get_profit_loss_chart_summary(
     ]
 
 @router.post("/")
-def create_profit_loss(data: ProfitLossCreate, db: Session = Depends(get_db)):
-    new_entry = ProfitLossStatement(**data.dict())
+def create_profit_loss(data: dict, db: Session = Depends(get_db)):
+    new_entry = ProfitLossStatement(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)

@@ -5,7 +5,6 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import DailyOperatingCost
-from app.schemas import OperatingCostCreate
 
 router = APIRouter(prefix="/api/operating-cost", tags=["Operating Cost"])
 
@@ -61,8 +60,8 @@ def get_operating_cost_summary(
     }
 
 @router.post("/")
-def create_operating_cost(data: OperatingCostCreate, db: Session = Depends(get_db)):
-    new_entry = DailyOperatingCost(**data.dict())
+def create_operating_cost(data: dict, db: Session = Depends(get_db)):
+    new_entry = DailyOperatingCost(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)

@@ -5,7 +5,6 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import GeneralLedger
-from app.schemas import GeneralLedgerCreate
 
 router = APIRouter(prefix="/api/general-ledger", tags=["General Ledger"])
 
@@ -91,8 +90,8 @@ def get_general_ledger_chart_summary(
     return result
 
 @router.post("/")
-def create_general_ledger(data: GeneralLedgerCreate, db: Session = Depends(get_db)):
-    new_entry = GeneralLedger(**data.dict())
+def create_general_ledger(data: dict, db: Session = Depends(get_db)):
+    new_entry = GeneralLedger(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)

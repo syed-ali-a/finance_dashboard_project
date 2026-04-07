@@ -191,12 +191,12 @@ class RevenueRecognition(Base):
     __tablename__ = "revenue_recognition"
 
     id = Column(Integer, primary_key=True, index=True)
-    transaction_id = Column(String(50))
+    transaction_id = Column(String(50), nullable=False)
     transaction_type = Column(String(50))
-    booking_date = Column(Date)
-    service_date = Column(Date)
-    recognition_date = Column(Date)
-    gross_amount = Column(Numeric(14, 2))
+    booking_date = Column(Date, nullable=False)
+    service_date = Column(Date, nullable=False)
+    recognition_date = Column(Date, nullable=False)
+    gross_amount = Column(Numeric(14, 2), nullable=False)
     recognized_amount = Column(Numeric(14, 2))
     deferred_amount = Column(Numeric(14, 2))
     recognition_method = Column(String(50))
