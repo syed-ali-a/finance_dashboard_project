@@ -12,7 +12,8 @@ from app.routers import (
     general_ledger,
     chart_of_accounts,
     profit_loss,
-    revenue_recognition
+    revenue_recognition,
+    filters
 )
 
 app = FastAPI(title="Finance Dashboard")
@@ -30,6 +31,7 @@ app.include_router(general_ledger.router)
 app.include_router(chart_of_accounts.router)
 app.include_router(profit_loss.router)
 app.include_router(revenue_recognition.router)
+app.include_router(filters.router)
 
 
 @app.get("/")

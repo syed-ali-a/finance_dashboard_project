@@ -2,7 +2,7 @@ import os
 from sqlalchemy import create_engine, MetaData, Table, update, select
 from datetime import date
 
-DATABASE_URL = "postgresql+psycopg2://postgres:7025465177%40Pgadmin@localhost:5432/finance_dashboard"
+DATABASE_URL = "postgresql+psycopg2://postgres:7025465177%40Pgadmin@localhost:5432/finance_data_demo"
 engine = create_engine(DATABASE_URL)
 metadata = MetaData()
 metadata.reflect(bind=engine)

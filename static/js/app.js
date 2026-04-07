@@ -311,11 +311,7 @@ function loadAllForCurrentPage() {
 }
 
 
-// Event Listeners for Slicers (Year and Month dropdowns)
-document.addEventListener("DOMContentLoaded", () => {
-    if ($("filterYear")) $("filterYear").addEventListener("change", loadAllForCurrentPage);
-    if ($("filterMonth")) $("filterMonth").addEventListener("change", loadAllForCurrentPage);
-});
+// Event Listeners for Slicers are now attached in INIT
 
 
 // ================= DASHBOARD KPI CARDS =================
@@ -1126,6 +1122,49 @@ async function loadRevenueRecognitionTable() {
 
 // ================= INIT =================
 
-window.addEventListener("DOMContentLoaded", () => {
+async function loadFilters() {
+    try {
+        const res = await fetch("/api/filters/dates");
+        if (!res.ok) throw new Error("Failed to load filters");
+        const data = await res.json();
+        
+        const yearSelect = $("filterYear");
+        const monthSelect = $("filterMonth");
+        
+        if (yearSelect && data.years) {
+            yearSelect.innerHTML = '<option value="">All Years</option>';
+            data.years.forEach(year => {
+                const opt = document.createElement("option");
+                opt.value = year;
+                opt.textContent = year;
+                yearSelect.appendChild(opt);
+            });
+            // Auto-select latest year
+            if (data.years.length > 0) {
+                yearSelect.value = data.years[0];
+            }
+        }
+        
+        const monthNames = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        if (monthSelect && data.months) {
+            monthSelect.innerHTML = '<option value="">All Months</option>';
+            data.months.forEach(month => {
+                const opt = document.createElement("option");
+                opt.value = month;
+                opt.textContent = monthNames[month];
+                monthSelect.appendChild(opt);
+            });
+        }
+    } catch (err) {
+        console.error("Error loading filters:", err);
+    }
+}
+
+window.addEventListener("DOMContentLoaded", async () => {
+    await loadFilters();
+    
+    if ($("filterYear")) $("filterYear").addEventListener("change", loadAllForCurrentPage);
+    if ($("filterMonth")) $("filterMonth").addEventListener("change", loadAllForCurrentPage);
+    
     loadAllForCurrentPage();
 });
