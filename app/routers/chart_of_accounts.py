@@ -3,7 +3,6 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.models import ChartOfAccounts
-from app.schemas import ChartOfAccountsCreate
 
 router = APIRouter(prefix="/api/chart-of-accounts", tags=["Chart of Accounts"])
 
@@ -71,8 +70,8 @@ def get_chart_of_accounts_type_summary(db: Session = Depends(get_db)):
     return result
 
 @router.post("/")
-def create_account(data: ChartOfAccountsCreate, db: Session = Depends(get_db)):
-    new_entry = ChartOfAccounts(**data.dict())
+def create_account(data: dict, db: Session = Depends(get_db)):
+    new_entry = ChartOfAccounts(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)
