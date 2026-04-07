@@ -5,7 +5,6 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import DailyRevenue
-from app.schemas import RevenueCreate
 
 router = APIRouter(prefix="/api/revenue", tags=["Revenue"])
 
@@ -59,8 +58,8 @@ def get_revenue_summary(
     }
 
 @router.post("/")
-def create_revenue(data: RevenueCreate, db: Session = Depends(get_db)):
-    new_entry = DailyRevenue(**data.dict())
+def create_revenue(data: dict, db: Session = Depends(get_db)):
+    new_entry = DailyRevenue(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)

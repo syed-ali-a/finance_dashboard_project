@@ -5,7 +5,6 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import DailyExpense
-from app.schemas import DailyExpenseCreate
 
 router = APIRouter(prefix="/api/daily-expense", tags=["Daily Expense"])
 
@@ -85,8 +84,8 @@ def get_daily_expense_category_summary(
     return result
 
 @router.post("/")
-def create_daily_expense(data: DailyExpenseCreate, db: Session = Depends(get_db)):
-    new_entry = DailyExpense(**data.dict())
+def create_daily_expense(data: dict, db: Session = Depends(get_db)):
+    new_entry = DailyExpense(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)

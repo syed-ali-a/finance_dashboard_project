@@ -5,15 +5,14 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import RevenueRecognition
-from app.schemas import RevenueRecognitionCreate
 
 router = APIRouter(prefix="/api/revenue-recognition", tags=["Revenue Recognition"])
 
 def apply_filters(query, model, year, month):
     if year:
-        query = query.filter(extract('year', model.booking_date) == year)
+        query = query.filter(extract('year', model.recognition_date) == year)
     if month:
-        query = query.filter(extract('month', model.booking_date) == month)
+        query = query.filter(extract('month', model.recognition_date) == month)
     return query
 
 @router.get("/")
@@ -24,24 +23,24 @@ def get_revenue_recognition(
 ):
     query = db.query(RevenueRecognition)
     query = apply_filters(query, RevenueRecognition, year, month)
-    rows = query.order_by(RevenueRecognition.booking_date).all()
+    rows = query.order_by(RevenueRecognition.recognition_date).all()
 
     return [
         {
             "id": row.id,
-            "transaction_id": row.transaction_id or "—",
-            "transaction_type": row.transaction_type or "—",
-            "booking_date": str(row.booking_date),
-            "service_date": str(row.service_date),
-            "recognition_date": str(row.recognition_date),
+            "transaction_id": row.transaction_id or "",
+            "transaction_type": row.transaction_type or "",
+            "booking_date": str(row.booking_date) if row.booking_date else "",
+            "service_date": str(row.service_date) if row.service_date else "",
+            "recognition_date": str(row.recognition_date) if row.recognition_date else "",
             "gross_amount": float(row.gross_amount or 0),
             "recognized_amount": float(row.recognized_amount or 0),
             "deferred_amount": float(row.deferred_amount or 0),
-            "recognition_method": row.recognition_method or "—",
-            "performance_obligation": row.performance_obligation or "—",
+            "recognition_method": row.recognition_method or "",
+            "performance_obligation": row.performance_obligation or "",
             "status": row.status or "Pending",
-            "flight_number": row.flight_number or "—",
-            "route": row.route or "—"
+            "flight_number": row.flight_number or "",
+            "route": row.route or ""
         }
         for row in rows
     ]
@@ -76,11 +75,11 @@ def get_revenue_recognition_chart_summary(
 ):
     query = db.query(RevenueRecognition)
     query = apply_filters(query, RevenueRecognition, year, month)
-    rows = query.order_by(RevenueRecognition.booking_date).all()
+    rows = query.order_by(RevenueRecognition.recognition_date).all()
 
     date_map = {}
     for row in rows:
-        date_key = str(row.booking_date)
+        date_key = str(row.recognition_date) if row.recognition_date else "Unknown"
         if date_key not in date_map:
             date_map[date_key] = {"date": date_key, "recognized": 0, "deferred": 0}
         date_map[date_key]["recognized"] += float(row.recognized_amount or 0)
@@ -91,8 +90,8 @@ def get_revenue_recognition_chart_summary(
     return result
 
 @router.post("/")
-def create_revenue_recognition(data: RevenueRecognitionCreate, db: Session = Depends(get_db)):
-    new_entry = RevenueRecognition(**data.dict())
+def create_revenue_recognition(data: dict, db: Session = Depends(get_db)):
+    new_entry = RevenueRecognition(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)

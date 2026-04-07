@@ -6,7 +6,6 @@ from typing import Optional
 
 from app.database import get_db
 from app.models import AccountsReceivable
-from app.schemas import AccountsReceivableCreate
 
 router = APIRouter(prefix="/api/accounts-receivable", tags=["Accounts Receivable"])
 
@@ -68,8 +67,8 @@ def get_accounts_receivable_summary(
     }
 
 @router.post("/")
-def create_accounts_receivable(data: AccountsReceivableCreate, db: Session = Depends(get_db)):
-    new_entry = AccountsReceivable(**data.dict())
+def create_accounts_receivable(data: dict, db: Session = Depends(get_db)):
+    new_entry = AccountsReceivable(**data)
     db.add(new_entry)
     db.commit()
     db.refresh(new_entry)
