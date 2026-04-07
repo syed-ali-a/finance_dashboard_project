@@ -1,0 +1,1049 @@
+id,account_code,account_name,account_type,sub_type,parent_code,description,normal_balance,is_active,is_header,currency,created_at
+1,1000,Assets,Asset,Header,,All asset accounts,Debit,1,1,USD,2023-01-01 09:00:00
+2,1100,Cash & Cash Equivalents,Asset,Asset,1000,Bank accounts and cash equivalents,Debit,1,0,USD,2023-01-01 09:00:00
+3,1110,Operating Cash Account,Asset,Asset,1100,Primary operating bank account,Debit,1,0,USD,2023-01-01 09:00:00
+4,1120,Restricted Cash,Asset,Asset,1100,Restricted cash and collateral,Debit,1,0,USD,2023-01-01 09:00:00
+5,1200,Accounts Receivable,Asset,Asset,1000,Receivables from customers and partners,Debit,1,0,USD,2023-01-01 09:00:00
+6,1210,Trade Accounts Receivable,Asset,Asset,1200,Trade receivables from passenger and cargo customers,Debit,1,0,USD,2023-01-01 09:00:00
+7,1220,Interline Receivable,Asset,Asset,1200,Amounts due from partner carriers,Debit,1,0,USD,2023-01-01 09:00:00
+8,1300,Inventory,Asset,Header,1000,Inventory accounts,Debit,1,1,USD,2023-01-01 09:00:00
+9,1310,Jet Fuel Inventory,Asset,Asset,1300,Jet fuel on hand,Debit,1,0,USD,2023-01-01 09:00:00
+10,1320,Spare Parts Inventory,Asset,Asset,1300,Aircraft spare parts and rotable inventory,Debit,1,0,USD,2023-01-01 09:00:00
+11,1400,Prepaid Expenses,Asset,Asset,1000,"Prepaid rent, insurance, and services",Debit,1,0,USD,2023-01-01 09:00:00
+12,1500,"Property, Plant & Equipment",Asset,Header,1000,"Property, plant and equipment",Debit,1,1,USD,2023-01-01 09:00:00
+13,1510,Aircraft & Engines,Asset,Asset,1500,Owned aircraft and engines,Debit,1,0,USD,2023-01-01 09:00:00
+14,1520,Ground Equipment,Asset,Asset,1500,Ground support equipment,Debit,1,0,USD,2023-01-01 09:00:00
+15,1530,Leasehold Improvements,Asset,Asset,1500,Improvements to leased facilities,Debit,1,0,USD,2023-01-01 09:00:00
+16,1600,Accumulated Depreciation,Asset,Contra Asset,1500,Accumulated depreciation on fixed assets,Credit,1,0,USD,2023-01-01 09:00:00
+17,2000,Liabilities,Liability,Header,,All liability accounts,Credit,1,1,USD,2023-01-01 09:00:00
+18,2100,Accounts Payable,Liability,Liability,2000,Trade payables to vendors,Credit,1,0,USD,2023-01-01 09:00:00
+19,2110,Fuel Supplier Payables,Liability,Liability,2100,Amounts due to fuel suppliers,Credit,1,0,USD,2023-01-01 09:00:00
+20,2120,Maintenance Vendor Payables,Liability,Liability,2100,Amounts due to maintenance vendors,Credit,1,0,USD,2023-01-01 09:00:00
+21,2200,Accrued Expenses,Liability,Liability,2000,Accrued operating expenses,Credit,1,0,USD,2023-01-01 09:00:00
+22,2210,Accrued Payroll,Liability,Liability,2200,Payroll and related accruals,Credit,1,0,USD,2023-01-01 09:00:00
+23,2220,Accrued Airport Fees,Liability,Liability,2200,Accrued landing and station fees,Credit,1,0,USD,2023-01-01 09:00:00
+24,2300,Deferred Revenue,Liability,Liability,2000,Advance ticket and cargo collections,Credit,1,0,USD,2023-01-01 09:00:00
+25,2310,Air Traffic Liability,Liability,Liability,2300,Unflown passenger tickets,Credit,1,0,USD,2023-01-01 09:00:00
+26,2320,Loyalty Program Liability,Liability,Liability,2300,Deferred loyalty obligations,Credit,1,0,USD,2023-01-01 09:00:00
+27,2400,Long-term Debt,Liability,Liability,2000,Aircraft financing and other debt,Credit,1,0,USD,2023-01-01 09:00:00
+28,2500,Lease Liabilities,Liability,Liability,2000,Aircraft and property lease liabilities,Credit,1,0,USD,2023-01-01 09:00:00
+29,2600,Income Taxes Payable,Liability,Liability,2000,Current income taxes payable,Credit,1,0,USD,2023-01-01 09:00:00
+30,3000,Equity,Equity,Header,,All equity accounts,Credit,1,1,USD,2023-01-01 09:00:00
+31,3100,Common Stock,Equity,Equity,3000,Issued share capital,Credit,1,0,USD,2023-01-01 09:00:00
+32,3200,Additional Paid-in Capital,Equity,Equity,3000,Additional capital contributions,Credit,1,0,USD,2023-01-01 09:00:00
+33,3300,Retained Earnings,Equity,Equity,3000,Accumulated earnings,Credit,1,0,USD,2023-01-01 09:00:00
+34,4000,Operating Revenue,Revenue,Header,,All operating revenue accounts,Credit,1,1,USD,2023-01-01 09:00:00
+35,4100,Passenger Revenue - Mainline,Revenue,Revenue,4000,Mainline passenger ticket revenue,Credit,1,0,USD,2023-01-01 09:00:00
+36,4110,Passenger Revenue - Regional,Revenue,Revenue,4000,Regional passenger ticket revenue,Credit,1,0,USD,2023-01-01 09:00:00
+37,4200,Corporate Contract Revenue,Revenue,Revenue,4000,Corporate and charter contract revenue,Credit,1,0,USD,2023-01-01 09:00:00
+38,4300,Cargo & Mail Revenue,Revenue,Revenue,4000,Cargo and mail transport revenue,Credit,1,0,USD,2023-01-01 09:00:00
+39,4400,Ancillary Revenue - Bags,Revenue,Revenue,4000,Baggage and related fees,Credit,1,0,USD,2023-01-01 09:00:00
+40,4410,Ancillary Revenue - Seats,Revenue,Revenue,4000,Preferred seat selection fees,Credit,1,0,USD,2023-01-01 09:00:00
+41,4420,Ancillary Revenue - WiFi,Revenue,Revenue,4000,Onboard connectivity fees,Credit,1,0,USD,2023-01-01 09:00:00
+42,4430,Ancillary Revenue - Other,Revenue,Revenue,4000,"Change fees, lounge, and other ancillary",Credit,1,0,USD,2023-01-01 09:00:00
+43,4500,Loyalty Revenue,Revenue,Revenue,4000,Recognized loyalty program revenue,Credit,1,0,USD,2023-01-01 09:00:00
+44,4600,Other Operating Revenue,Revenue,Revenue,4000,Other operating and service revenue,Credit,1,0,USD,2023-01-01 09:00:00
+45,5000,Operating Expenses,Expense,Header,,All operating expense accounts,Debit,1,1,USD,2023-01-01 09:00:00
+46,5100,Fuel Expense,Expense,Expense,5000,Jet fuel and into-plane fees,Debit,1,0,USD,2023-01-01 09:00:00
+47,5200,Flight Crew Salaries,Expense,Expense,5000,Pilots and cabin crew payroll,Debit,1,0,USD,2023-01-01 09:00:00
+48,5210,Ground Staff Salaries,Expense,Expense,5000,Airport and operations staff payroll,Debit,1,0,USD,2023-01-01 09:00:00
+49,5300,Maintenance & Repair Expense,Expense,Expense,5000,"Airframe, engine, and line maintenance",Debit,1,0,USD,2023-01-01 09:00:00
+50,5400,Airport & Navigation Fees,Expense,Expense,5000,"Landing, parking, and station fees",Debit,1,0,USD,2023-01-01 09:00:00
+51,5500,Aircraft Lease Expense,Expense,Expense,5000,Aircraft lease and rental expense,Debit,1,0,USD,2023-01-01 09:00:00
+52,5600,Distribution & Sales Expense,Expense,Expense,5000,"GDS, commissions, card processing",Debit,1,0,USD,2023-01-01 09:00:00
+53,5700,Catering & Inflight Expense,Expense,Expense,5000,Inflight catering and passenger service items,Debit,1,0,USD,2023-01-01 09:00:00
+54,5800,Insurance & Safety Expense,Expense,Expense,5000,"Hull, liability, and safety compliance",Debit,1,0,USD,2023-01-01 09:00:00
+55,5900,Depreciation & Amortization,Expense,Expense,5000,Depreciation and amortization expense,Debit,1,0,USD,2023-01-01 09:00:00
+56,5950,Other Operating Expense,Expense,Expense,5000,"Utilities, IT, and miscellaneous operating expense",Debit,1,0,USD,2023-01-01 09:00:00
+57,6000,Non-operating Items,Other,Header,,Non-operating income and expense accounts,Debit,1,1,USD,2023-01-01 09:00:00
+58,6100,Interest Expense,Expense,Expense,6000,Interest on debt and leases,Debit,1,0,USD,2023-01-01 09:00:00
+59,6200,Interest Income,Revenue,Revenue,6000,Interest income on deposits,Credit,1,0,USD,2023-01-01 09:00:00
+60,6300,Fuel Hedging Gain/Loss,Other,Other,6000,Realized and mark-to-market fuel hedging,Debit,1,0,USD,2023-01-01 09:00:00
+61,6400,Income Tax Expense,Expense,Expense,6000,Federal and state income taxes,Debit,1,0,USD,2023-01-01 09:00:00
+62,1410,Prepaid Insurance,Asset,Asset,1400,Prepaid insurance premiums,Debit,1,0,USD,2023-01-01 09:00:00
+63,1420,Prepaid Airport Rentals,Asset,Asset,1400,Prepaid airport facilities rentals,Debit,1,0,USD,2023-01-01 09:00:00
+64,2140,Credit Card Clearing,Liability,Liability,2100,Settlement timing differences with card processors,Credit,1,0,USD,2023-01-01 09:00:00
+65,2230,Accrued Catering,Liability,Liability,2200,Accrued inflight catering costs,Credit,1,0,USD,2023-01-01 09:00:00
+66,2240,Accrued Maintenance Reserves,Liability,Liability,2200,Accrued maintenance reserve obligations,Credit,1,0,USD,2023-01-01 09:00:00
+67,2330,Unused Ticket Credits,Liability,Liability,2300,Unused passenger ticket credits,Credit,1,0,USD,2023-01-01 09:00:00
+68,2440,Deferred Lease Obligation,Liability,Liability,2500,Deferred lease accounting balances,Credit,1,0,USD,2023-01-01 09:00:00
+69,3400,Accumulated Other Comprehensive Income,Equity,Equity,3000,AOCI from cash flow hedges,Credit,1,0,USD,2023-01-01 09:00:00
+70,4700,Interline & Codeshare Revenue,Revenue,Revenue,4000,Revenue from interline and codeshare activities,Credit,1,0,USD,2023-01-01 09:00:00
+71,5120,Fueling Service Expense,Expense,Expense,5000,Into-plane and fueling services,Debit,1,0,USD,2023-01-01 09:00:00
+72,5310,Engine Overhaul Expense,Expense,Expense,5000,Engine shop visit expense,Debit,1,0,USD,2023-01-01 09:00:00
+73,5410,Ground Handling Expense,Expense,Expense,5000,Third-party station and ground handling,Debit,1,0,USD,2023-01-01 09:00:00
+74,5610,Credit Card Fees,Expense,Expense,5000,Merchant discount and card processing fees,Debit,1,0,USD,2023-01-01 09:00:00
+75,5710,Passenger Amenities Expense,Expense,Expense,5000,"Blankets, kits, and customer amenities",Debit,1,0,USD,2023-01-01 09:00:00
+76,5810,Safety Training Expense,Expense,Expense,5000,Safety and compliance training,Debit,1,0,USD,2023-01-01 09:00:00
+77,5960,IT & Communications Expense,Expense,Expense,5000,IT systems and communication expense,Debit,1,0,USD,2023-01-01 09:00:00
+78,5970,Utilities & Facilities Expense,Expense,Expense,5000,Utilities and facilities support expense,Debit,1,0,USD,2023-01-01 09:00:00
+79,6500,Gain/Loss on Asset Disposals,Other,Other,6000,Gains and losses on disposals,Debit,1,0,USD,2023-01-01 09:00:00
+80,6600,Foreign Exchange Gain/Loss,Other,Other,6000,FX gains and losses on settlements,Debit,1,0,USD,2023-01-01 09:00:00
+81,70000,Station Fuel Expense - ATL,Expense,Expense,5100,Fuel uplift and into-plane services at ATL,Debit,1,0,USD,2023-01-01 09:00:00
+82,70001,Station Ground Handling Expense - ATL,Expense,Expense,5410,Third-party ground handling at ATL,Debit,1,0,USD,2023-01-01 09:00:00
+83,70002,Station Landing Fees - ATL,Expense,Expense,5400,Landing and airport use fees at ATL,Debit,1,0,USD,2023-01-01 09:00:00
+84,70003,Station Catering Expense - ATL,Expense,Expense,5700,Inflight catering uplift at ATL,Debit,1,0,USD,2023-01-01 09:00:00
+85,70004,Station Facilities Expense - ATL,Expense,Expense,5970,Station utilities and facilities at ATL,Debit,1,0,USD,2023-01-01 09:00:00
+86,70005,Station Passenger Revenue - ATL,Revenue,Revenue,4100,Origin or destination passenger revenue detail for ATL,Credit,1,0,USD,2023-01-01 09:00:00
+87,70006,Station Cargo Revenue - ATL,Revenue,Revenue,4300,Cargo revenue detail for ATL,Credit,1,0,USD,2023-01-01 09:00:00
+88,70007,Station Fuel Expense - AUS,Expense,Expense,5100,Fuel uplift and into-plane services at AUS,Debit,1,0,USD,2023-01-01 09:00:00
+89,70008,Station Ground Handling Expense - AUS,Expense,Expense,5410,Third-party ground handling at AUS,Debit,1,0,USD,2023-01-01 09:00:00
+90,70009,Station Landing Fees - AUS,Expense,Expense,5400,Landing and airport use fees at AUS,Debit,1,0,USD,2023-01-01 09:00:00
+91,70010,Station Catering Expense - AUS,Expense,Expense,5700,Inflight catering uplift at AUS,Debit,1,0,USD,2023-01-01 09:00:00
+92,70011,Station Facilities Expense - AUS,Expense,Expense,5970,Station utilities and facilities at AUS,Debit,1,0,USD,2023-01-01 09:00:00
+93,70012,Station Passenger Revenue - AUS,Revenue,Revenue,4100,Origin or destination passenger revenue detail for AUS,Credit,1,0,USD,2023-01-01 09:00:00
+94,70013,Station Cargo Revenue - AUS,Revenue,Revenue,4300,Cargo revenue detail for AUS,Credit,1,0,USD,2023-01-01 09:00:00
+95,70014,Station Fuel Expense - BOS,Expense,Expense,5100,Fuel uplift and into-plane services at BOS,Debit,1,0,USD,2023-01-01 09:00:00
+96,70015,Station Ground Handling Expense - BOS,Expense,Expense,5410,Third-party ground handling at BOS,Debit,1,0,USD,2023-01-01 09:00:00
+97,70016,Station Landing Fees - BOS,Expense,Expense,5400,Landing and airport use fees at BOS,Debit,1,0,USD,2023-01-01 09:00:00
+98,70017,Station Catering Expense - BOS,Expense,Expense,5700,Inflight catering uplift at BOS,Debit,1,0,USD,2023-01-01 09:00:00
+99,70018,Station Facilities Expense - BOS,Expense,Expense,5970,Station utilities and facilities at BOS,Debit,1,0,USD,2023-01-01 09:00:00
+100,70019,Station Passenger Revenue - BOS,Revenue,Revenue,4100,Origin or destination passenger revenue detail for BOS,Credit,1,0,USD,2023-01-01 09:00:00
+101,70020,Station Cargo Revenue - BOS,Revenue,Revenue,4300,Cargo revenue detail for BOS,Credit,1,0,USD,2023-01-01 09:00:00
+102,70021,Station Fuel Expense - CLT,Expense,Expense,5100,Fuel uplift and into-plane services at CLT,Debit,1,0,USD,2023-01-01 09:00:00
+103,70022,Station Ground Handling Expense - CLT,Expense,Expense,5410,Third-party ground handling at CLT,Debit,1,0,USD,2023-01-01 09:00:00
+104,70023,Station Landing Fees - CLT,Expense,Expense,5400,Landing and airport use fees at CLT,Debit,1,0,USD,2023-01-01 09:00:00
+105,70024,Station Catering Expense - CLT,Expense,Expense,5700,Inflight catering uplift at CLT,Debit,1,0,USD,2023-01-01 09:00:00
+106,70025,Station Facilities Expense - CLT,Expense,Expense,5970,Station utilities and facilities at CLT,Debit,1,0,USD,2023-01-01 09:00:00
+107,70026,Station Passenger Revenue - CLT,Revenue,Revenue,4100,Origin or destination passenger revenue detail for CLT,Credit,1,0,USD,2023-01-01 09:00:00
+108,70027,Station Cargo Revenue - CLT,Revenue,Revenue,4300,Cargo revenue detail for CLT,Credit,1,0,USD,2023-01-01 09:00:00
+109,70028,Station Fuel Expense - CUN,Expense,Expense,5100,Fuel uplift and into-plane services at CUN,Debit,1,0,USD,2023-01-01 09:00:00
+110,70029,Station Ground Handling Expense - CUN,Expense,Expense,5410,Third-party ground handling at CUN,Debit,1,0,USD,2023-01-01 09:00:00
+111,70030,Station Landing Fees - CUN,Expense,Expense,5400,Landing and airport use fees at CUN,Debit,1,0,USD,2023-01-01 09:00:00
+112,70031,Station Catering Expense - CUN,Expense,Expense,5700,Inflight catering uplift at CUN,Debit,1,0,USD,2023-01-01 09:00:00
+113,70032,Station Facilities Expense - CUN,Expense,Expense,5970,Station utilities and facilities at CUN,Debit,1,0,USD,2023-01-01 09:00:00
+114,70033,Station Passenger Revenue - CUN,Revenue,Revenue,4100,Origin or destination passenger revenue detail for CUN,Credit,1,0,USD,2023-01-01 09:00:00
+115,70034,Station Cargo Revenue - CUN,Revenue,Revenue,4300,Cargo revenue detail for CUN,Credit,1,0,USD,2023-01-01 09:00:00
+116,70035,Station Fuel Expense - DEN,Expense,Expense,5100,Fuel uplift and into-plane services at DEN,Debit,1,0,USD,2023-01-01 09:00:00
+117,70036,Station Ground Handling Expense - DEN,Expense,Expense,5410,Third-party ground handling at DEN,Debit,1,0,USD,2023-01-01 09:00:00
+118,70037,Station Landing Fees - DEN,Expense,Expense,5400,Landing and airport use fees at DEN,Debit,1,0,USD,2023-01-01 09:00:00
+119,70038,Station Catering Expense - DEN,Expense,Expense,5700,Inflight catering uplift at DEN,Debit,1,0,USD,2023-01-01 09:00:00
+120,70039,Station Facilities Expense - DEN,Expense,Expense,5970,Station utilities and facilities at DEN,Debit,1,0,USD,2023-01-01 09:00:00
+121,70040,Station Passenger Revenue - DEN,Revenue,Revenue,4100,Origin or destination passenger revenue detail for DEN,Credit,1,0,USD,2023-01-01 09:00:00
+122,70041,Station Cargo Revenue - DEN,Revenue,Revenue,4300,Cargo revenue detail for DEN,Credit,1,0,USD,2023-01-01 09:00:00
+123,70042,Station Fuel Expense - DFW,Expense,Expense,5100,Fuel uplift and into-plane services at DFW,Debit,1,0,USD,2023-01-01 09:00:00
+124,70043,Station Ground Handling Expense - DFW,Expense,Expense,5410,Third-party ground handling at DFW,Debit,1,0,USD,2023-01-01 09:00:00
+125,70044,Station Landing Fees - DFW,Expense,Expense,5400,Landing and airport use fees at DFW,Debit,1,0,USD,2023-01-01 09:00:00
+126,70045,Station Catering Expense - DFW,Expense,Expense,5700,Inflight catering uplift at DFW,Debit,1,0,USD,2023-01-01 09:00:00
+127,70046,Station Facilities Expense - DFW,Expense,Expense,5970,Station utilities and facilities at DFW,Debit,1,0,USD,2023-01-01 09:00:00
+128,70047,Station Passenger Revenue - DFW,Revenue,Revenue,4100,Origin or destination passenger revenue detail for DFW,Credit,1,0,USD,2023-01-01 09:00:00
+129,70048,Station Cargo Revenue - DFW,Revenue,Revenue,4300,Cargo revenue detail for DFW,Credit,1,0,USD,2023-01-01 09:00:00
+130,70049,Station Fuel Expense - IAD,Expense,Expense,5100,Fuel uplift and into-plane services at IAD,Debit,1,0,USD,2023-01-01 09:00:00
+131,70050,Station Ground Handling Expense - IAD,Expense,Expense,5410,Third-party ground handling at IAD,Debit,1,0,USD,2023-01-01 09:00:00
+132,70051,Station Landing Fees - IAD,Expense,Expense,5400,Landing and airport use fees at IAD,Debit,1,0,USD,2023-01-01 09:00:00
+133,70052,Station Catering Expense - IAD,Expense,Expense,5700,Inflight catering uplift at IAD,Debit,1,0,USD,2023-01-01 09:00:00
+134,70053,Station Facilities Expense - IAD,Expense,Expense,5970,Station utilities and facilities at IAD,Debit,1,0,USD,2023-01-01 09:00:00
+135,70054,Station Passenger Revenue - IAD,Revenue,Revenue,4100,Origin or destination passenger revenue detail for IAD,Credit,1,0,USD,2023-01-01 09:00:00
+136,70055,Station Cargo Revenue - IAD,Revenue,Revenue,4300,Cargo revenue detail for IAD,Credit,1,0,USD,2023-01-01 09:00:00
+137,70056,Station Fuel Expense - IAH,Expense,Expense,5100,Fuel uplift and into-plane services at IAH,Debit,1,0,USD,2023-01-01 09:00:00
+138,70057,Station Ground Handling Expense - IAH,Expense,Expense,5410,Third-party ground handling at IAH,Debit,1,0,USD,2023-01-01 09:00:00
+139,70058,Station Landing Fees - IAH,Expense,Expense,5400,Landing and airport use fees at IAH,Debit,1,0,USD,2023-01-01 09:00:00
+140,70059,Station Catering Expense - IAH,Expense,Expense,5700,Inflight catering uplift at IAH,Debit,1,0,USD,2023-01-01 09:00:00
+141,70060,Station Facilities Expense - IAH,Expense,Expense,5970,Station utilities and facilities at IAH,Debit,1,0,USD,2023-01-01 09:00:00
+142,70061,Station Passenger Revenue - IAH,Revenue,Revenue,4100,Origin or destination passenger revenue detail for IAH,Credit,1,0,USD,2023-01-01 09:00:00
+143,70062,Station Cargo Revenue - IAH,Revenue,Revenue,4300,Cargo revenue detail for IAH,Credit,1,0,USD,2023-01-01 09:00:00
+144,70063,Station Fuel Expense - JFK,Expense,Expense,5100,Fuel uplift and into-plane services at JFK,Debit,1,0,USD,2023-01-01 09:00:00
+145,70064,Station Ground Handling Expense - JFK,Expense,Expense,5410,Third-party ground handling at JFK,Debit,1,0,USD,2023-01-01 09:00:00
+146,70065,Station Landing Fees - JFK,Expense,Expense,5400,Landing and airport use fees at JFK,Debit,1,0,USD,2023-01-01 09:00:00
+147,70066,Station Catering Expense - JFK,Expense,Expense,5700,Inflight catering uplift at JFK,Debit,1,0,USD,2023-01-01 09:00:00
+148,70067,Station Facilities Expense - JFK,Expense,Expense,5970,Station utilities and facilities at JFK,Debit,1,0,USD,2023-01-01 09:00:00
+149,70068,Station Passenger Revenue - JFK,Revenue,Revenue,4100,Origin or destination passenger revenue detail for JFK,Credit,1,0,USD,2023-01-01 09:00:00
+150,70069,Station Cargo Revenue - JFK,Revenue,Revenue,4300,Cargo revenue detail for JFK,Credit,1,0,USD,2023-01-01 09:00:00
+151,70070,Station Fuel Expense - LAS,Expense,Expense,5100,Fuel uplift and into-plane services at LAS,Debit,1,0,USD,2023-01-01 09:00:00
+152,70071,Station Ground Handling Expense - LAS,Expense,Expense,5410,Third-party ground handling at LAS,Debit,1,0,USD,2023-01-01 09:00:00
+153,70072,Station Landing Fees - LAS,Expense,Expense,5400,Landing and airport use fees at LAS,Debit,1,0,USD,2023-01-01 09:00:00
+154,70073,Station Catering Expense - LAS,Expense,Expense,5700,Inflight catering uplift at LAS,Debit,1,0,USD,2023-01-01 09:00:00
+155,70074,Station Facilities Expense - LAS,Expense,Expense,5970,Station utilities and facilities at LAS,Debit,1,0,USD,2023-01-01 09:00:00
+156,70075,Station Passenger Revenue - LAS,Revenue,Revenue,4100,Origin or destination passenger revenue detail for LAS,Credit,1,0,USD,2023-01-01 09:00:00
+157,70076,Station Cargo Revenue - LAS,Revenue,Revenue,4300,Cargo revenue detail for LAS,Credit,1,0,USD,2023-01-01 09:00:00
+158,70077,Station Fuel Expense - LAX,Expense,Expense,5100,Fuel uplift and into-plane services at LAX,Debit,1,0,USD,2023-01-01 09:00:00
+159,70078,Station Ground Handling Expense - LAX,Expense,Expense,5410,Third-party ground handling at LAX,Debit,1,0,USD,2023-01-01 09:00:00
+160,70079,Station Landing Fees - LAX,Expense,Expense,5400,Landing and airport use fees at LAX,Debit,1,0,USD,2023-01-01 09:00:00
+161,70080,Station Catering Expense - LAX,Expense,Expense,5700,Inflight catering uplift at LAX,Debit,1,0,USD,2023-01-01 09:00:00
+162,70081,Station Facilities Expense - LAX,Expense,Expense,5970,Station utilities and facilities at LAX,Debit,1,0,USD,2023-01-01 09:00:00
+163,70082,Station Passenger Revenue - LAX,Revenue,Revenue,4100,Origin or destination passenger revenue detail for LAX,Credit,1,0,USD,2023-01-01 09:00:00
+164,70083,Station Cargo Revenue - LAX,Revenue,Revenue,4300,Cargo revenue detail for LAX,Credit,1,0,USD,2023-01-01 09:00:00
+165,70084,Station Fuel Expense - LGA,Expense,Expense,5100,Fuel uplift and into-plane services at LGA,Debit,1,0,USD,2023-01-01 09:00:00
+166,70085,Station Ground Handling Expense - LGA,Expense,Expense,5410,Third-party ground handling at LGA,Debit,1,0,USD,2023-01-01 09:00:00
+167,70086,Station Landing Fees - LGA,Expense,Expense,5400,Landing and airport use fees at LGA,Debit,1,0,USD,2023-01-01 09:00:00
+168,70087,Station Catering Expense - LGA,Expense,Expense,5700,Inflight catering uplift at LGA,Debit,1,0,USD,2023-01-01 09:00:00
+169,70088,Station Facilities Expense - LGA,Expense,Expense,5970,Station utilities and facilities at LGA,Debit,1,0,USD,2023-01-01 09:00:00
+170,70089,Station Passenger Revenue - LGA,Revenue,Revenue,4100,Origin or destination passenger revenue detail for LGA,Credit,1,0,USD,2023-01-01 09:00:00
+171,70090,Station Cargo Revenue - LGA,Revenue,Revenue,4300,Cargo revenue detail for LGA,Credit,1,0,USD,2023-01-01 09:00:00
+172,70091,Station Fuel Expense - LHR,Expense,Expense,5100,Fuel uplift and into-plane services at LHR,Debit,1,0,USD,2023-01-01 09:00:00
+173,70092,Station Ground Handling Expense - LHR,Expense,Expense,5410,Third-party ground handling at LHR,Debit,1,0,USD,2023-01-01 09:00:00
+174,70093,Station Landing Fees - LHR,Expense,Expense,5400,Landing and airport use fees at LHR,Debit,1,0,USD,2023-01-01 09:00:00
+175,70094,Station Catering Expense - LHR,Expense,Expense,5700,Inflight catering uplift at LHR,Debit,1,0,USD,2023-01-01 09:00:00
+176,70095,Station Facilities Expense - LHR,Expense,Expense,5970,Station utilities and facilities at LHR,Debit,1,0,USD,2023-01-01 09:00:00
+177,70096,Station Passenger Revenue - LHR,Revenue,Revenue,4100,Origin or destination passenger revenue detail for LHR,Credit,1,0,USD,2023-01-01 09:00:00
+178,70097,Station Cargo Revenue - LHR,Revenue,Revenue,4300,Cargo revenue detail for LHR,Credit,1,0,USD,2023-01-01 09:00:00
+179,70098,Station Fuel Expense - MCO,Expense,Expense,5100,Fuel uplift and into-plane services at MCO,Debit,1,0,USD,2023-01-01 09:00:00
+180,70099,Station Ground Handling Expense - MCO,Expense,Expense,5410,Third-party ground handling at MCO,Debit,1,0,USD,2023-01-01 09:00:00
+181,70100,Station Landing Fees - MCO,Expense,Expense,5400,Landing and airport use fees at MCO,Debit,1,0,USD,2023-01-01 09:00:00
+182,70101,Station Catering Expense - MCO,Expense,Expense,5700,Inflight catering uplift at MCO,Debit,1,0,USD,2023-01-01 09:00:00
+183,70102,Station Facilities Expense - MCO,Expense,Expense,5970,Station utilities and facilities at MCO,Debit,1,0,USD,2023-01-01 09:00:00
+184,70103,Station Passenger Revenue - MCO,Revenue,Revenue,4100,Origin or destination passenger revenue detail for MCO,Credit,1,0,USD,2023-01-01 09:00:00
+185,70104,Station Cargo Revenue - MCO,Revenue,Revenue,4300,Cargo revenue detail for MCO,Credit,1,0,USD,2023-01-01 09:00:00
+186,70105,Station Fuel Expense - MIA,Expense,Expense,5100,Fuel uplift and into-plane services at MIA,Debit,1,0,USD,2023-01-01 09:00:00
+187,70106,Station Ground Handling Expense - MIA,Expense,Expense,5410,Third-party ground handling at MIA,Debit,1,0,USD,2023-01-01 09:00:00
+188,70107,Station Landing Fees - MIA,Expense,Expense,5400,Landing and airport use fees at MIA,Debit,1,0,USD,2023-01-01 09:00:00
+189,70108,Station Catering Expense - MIA,Expense,Expense,5700,Inflight catering uplift at MIA,Debit,1,0,USD,2023-01-01 09:00:00
+190,70109,Station Facilities Expense - MIA,Expense,Expense,5970,Station utilities and facilities at MIA,Debit,1,0,USD,2023-01-01 09:00:00
+191,70110,Station Passenger Revenue - MIA,Revenue,Revenue,4100,Origin or destination passenger revenue detail for MIA,Credit,1,0,USD,2023-01-01 09:00:00
+192,70111,Station Cargo Revenue - MIA,Revenue,Revenue,4300,Cargo revenue detail for MIA,Credit,1,0,USD,2023-01-01 09:00:00
+193,70112,Station Fuel Expense - MSP,Expense,Expense,5100,Fuel uplift and into-plane services at MSP,Debit,1,0,USD,2023-01-01 09:00:00
+194,70113,Station Ground Handling Expense - MSP,Expense,Expense,5410,Third-party ground handling at MSP,Debit,1,0,USD,2023-01-01 09:00:00
+195,70114,Station Landing Fees - MSP,Expense,Expense,5400,Landing and airport use fees at MSP,Debit,1,0,USD,2023-01-01 09:00:00
+196,70115,Station Catering Expense - MSP,Expense,Expense,5700,Inflight catering uplift at MSP,Debit,1,0,USD,2023-01-01 09:00:00
+197,70116,Station Facilities Expense - MSP,Expense,Expense,5970,Station utilities and facilities at MSP,Debit,1,0,USD,2023-01-01 09:00:00
+198,70117,Station Passenger Revenue - MSP,Revenue,Revenue,4100,Origin or destination passenger revenue detail for MSP,Credit,1,0,USD,2023-01-01 09:00:00
+199,70118,Station Cargo Revenue - MSP,Revenue,Revenue,4300,Cargo revenue detail for MSP,Credit,1,0,USD,2023-01-01 09:00:00
+200,70119,Station Fuel Expense - NRT,Expense,Expense,5100,Fuel uplift and into-plane services at NRT,Debit,1,0,USD,2023-01-01 09:00:00
+201,70120,Station Ground Handling Expense - NRT,Expense,Expense,5410,Third-party ground handling at NRT,Debit,1,0,USD,2023-01-01 09:00:00
+202,70121,Station Landing Fees - NRT,Expense,Expense,5400,Landing and airport use fees at NRT,Debit,1,0,USD,2023-01-01 09:00:00
+203,70122,Station Catering Expense - NRT,Expense,Expense,5700,Inflight catering uplift at NRT,Debit,1,0,USD,2023-01-01 09:00:00
+204,70123,Station Facilities Expense - NRT,Expense,Expense,5970,Station utilities and facilities at NRT,Debit,1,0,USD,2023-01-01 09:00:00
+205,70124,Station Passenger Revenue - NRT,Revenue,Revenue,4100,Origin or destination passenger revenue detail for NRT,Credit,1,0,USD,2023-01-01 09:00:00
+206,70125,Station Cargo Revenue - NRT,Revenue,Revenue,4300,Cargo revenue detail for NRT,Credit,1,0,USD,2023-01-01 09:00:00
+207,70126,Station Fuel Expense - ORD,Expense,Expense,5100,Fuel uplift and into-plane services at ORD,Debit,1,0,USD,2023-01-01 09:00:00
+208,70127,Station Ground Handling Expense - ORD,Expense,Expense,5410,Third-party ground handling at ORD,Debit,1,0,USD,2023-01-01 09:00:00
+209,70128,Station Landing Fees - ORD,Expense,Expense,5400,Landing and airport use fees at ORD,Debit,1,0,USD,2023-01-01 09:00:00
+210,70129,Station Catering Expense - ORD,Expense,Expense,5700,Inflight catering uplift at ORD,Debit,1,0,USD,2023-01-01 09:00:00
+211,70130,Station Facilities Expense - ORD,Expense,Expense,5970,Station utilities and facilities at ORD,Debit,1,0,USD,2023-01-01 09:00:00
+212,70131,Station Passenger Revenue - ORD,Revenue,Revenue,4100,Origin or destination passenger revenue detail for ORD,Credit,1,0,USD,2023-01-01 09:00:00
+213,70132,Station Cargo Revenue - ORD,Revenue,Revenue,4300,Cargo revenue detail for ORD,Credit,1,0,USD,2023-01-01 09:00:00
+214,70133,Station Fuel Expense - PDX,Expense,Expense,5100,Fuel uplift and into-plane services at PDX,Debit,1,0,USD,2023-01-01 09:00:00
+215,70134,Station Ground Handling Expense - PDX,Expense,Expense,5410,Third-party ground handling at PDX,Debit,1,0,USD,2023-01-01 09:00:00
+216,70135,Station Landing Fees - PDX,Expense,Expense,5400,Landing and airport use fees at PDX,Debit,1,0,USD,2023-01-01 09:00:00
+217,70136,Station Catering Expense - PDX,Expense,Expense,5700,Inflight catering uplift at PDX,Debit,1,0,USD,2023-01-01 09:00:00
+218,70137,Station Facilities Expense - PDX,Expense,Expense,5970,Station utilities and facilities at PDX,Debit,1,0,USD,2023-01-01 09:00:00
+219,70138,Station Passenger Revenue - PDX,Revenue,Revenue,4100,Origin or destination passenger revenue detail for PDX,Credit,1,0,USD,2023-01-01 09:00:00
+220,70139,Station Cargo Revenue - PDX,Revenue,Revenue,4300,Cargo revenue detail for PDX,Credit,1,0,USD,2023-01-01 09:00:00
+221,70140,Station Fuel Expense - PHX,Expense,Expense,5100,Fuel uplift and into-plane services at PHX,Debit,1,0,USD,2023-01-01 09:00:00
+222,70141,Station Ground Handling Expense - PHX,Expense,Expense,5410,Third-party ground handling at PHX,Debit,1,0,USD,2023-01-01 09:00:00
+223,70142,Station Landing Fees - PHX,Expense,Expense,5400,Landing and airport use fees at PHX,Debit,1,0,USD,2023-01-01 09:00:00
+224,70143,Station Catering Expense - PHX,Expense,Expense,5700,Inflight catering uplift at PHX,Debit,1,0,USD,2023-01-01 09:00:00
+225,70144,Station Facilities Expense - PHX,Expense,Expense,5970,Station utilities and facilities at PHX,Debit,1,0,USD,2023-01-01 09:00:00
+226,70145,Station Passenger Revenue - PHX,Revenue,Revenue,4100,Origin or destination passenger revenue detail for PHX,Credit,1,0,USD,2023-01-01 09:00:00
+227,70146,Station Cargo Revenue - PHX,Revenue,Revenue,4300,Cargo revenue detail for PHX,Credit,1,0,USD,2023-01-01 09:00:00
+228,70147,Station Fuel Expense - SAN,Expense,Expense,5100,Fuel uplift and into-plane services at SAN,Debit,1,0,USD,2023-01-01 09:00:00
+229,70148,Station Ground Handling Expense - SAN,Expense,Expense,5410,Third-party ground handling at SAN,Debit,1,0,USD,2023-01-01 09:00:00
+230,70149,Station Landing Fees - SAN,Expense,Expense,5400,Landing and airport use fees at SAN,Debit,1,0,USD,2023-01-01 09:00:00
+231,70150,Station Catering Expense - SAN,Expense,Expense,5700,Inflight catering uplift at SAN,Debit,1,0,USD,2023-01-01 09:00:00
+232,70151,Station Facilities Expense - SAN,Expense,Expense,5970,Station utilities and facilities at SAN,Debit,1,0,USD,2023-01-01 09:00:00
+233,70152,Station Passenger Revenue - SAN,Revenue,Revenue,4100,Origin or destination passenger revenue detail for SAN,Credit,1,0,USD,2023-01-01 09:00:00
+234,70153,Station Cargo Revenue - SAN,Revenue,Revenue,4300,Cargo revenue detail for SAN,Credit,1,0,USD,2023-01-01 09:00:00
+235,70154,Station Fuel Expense - SEA,Expense,Expense,5100,Fuel uplift and into-plane services at SEA,Debit,1,0,USD,2023-01-01 09:00:00
+236,70155,Station Ground Handling Expense - SEA,Expense,Expense,5410,Third-party ground handling at SEA,Debit,1,0,USD,2023-01-01 09:00:00
+237,70156,Station Landing Fees - SEA,Expense,Expense,5400,Landing and airport use fees at SEA,Debit,1,0,USD,2023-01-01 09:00:00
+238,70157,Station Catering Expense - SEA,Expense,Expense,5700,Inflight catering uplift at SEA,Debit,1,0,USD,2023-01-01 09:00:00
+239,70158,Station Facilities Expense - SEA,Expense,Expense,5970,Station utilities and facilities at SEA,Debit,1,0,USD,2023-01-01 09:00:00
+240,70159,Station Passenger Revenue - SEA,Revenue,Revenue,4100,Origin or destination passenger revenue detail for SEA,Credit,1,0,USD,2023-01-01 09:00:00
+241,70160,Station Cargo Revenue - SEA,Revenue,Revenue,4300,Cargo revenue detail for SEA,Credit,1,0,USD,2023-01-01 09:00:00
+242,70161,Station Fuel Expense - SFO,Expense,Expense,5100,Fuel uplift and into-plane services at SFO,Debit,1,0,USD,2023-01-01 09:00:00
+243,70162,Station Ground Handling Expense - SFO,Expense,Expense,5410,Third-party ground handling at SFO,Debit,1,0,USD,2023-01-01 09:00:00
+244,70163,Station Landing Fees - SFO,Expense,Expense,5400,Landing and airport use fees at SFO,Debit,1,0,USD,2023-01-01 09:00:00
+245,70164,Station Catering Expense - SFO,Expense,Expense,5700,Inflight catering uplift at SFO,Debit,1,0,USD,2023-01-01 09:00:00
+246,70165,Station Facilities Expense - SFO,Expense,Expense,5970,Station utilities and facilities at SFO,Debit,1,0,USD,2023-01-01 09:00:00
+247,70166,Station Passenger Revenue - SFO,Revenue,Revenue,4100,Origin or destination passenger revenue detail for SFO,Credit,1,0,USD,2023-01-01 09:00:00
+248,70167,Station Cargo Revenue - SFO,Revenue,Revenue,4300,Cargo revenue detail for SFO,Credit,1,0,USD,2023-01-01 09:00:00
+249,70168,A220 Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+250,70169,A220 Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+251,70170,A220 Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+252,70171,A220 Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+253,70172,A220 Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for A220,Credit,1,0,USD,2023-01-01 09:00:00
+254,70173,A321neo Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+255,70174,A321neo Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+256,70175,A321neo Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+257,70176,A321neo Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+258,70177,A321neo Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for A321neo,Credit,1,0,USD,2023-01-01 09:00:00
+259,70178,A330 Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+260,70179,A330 Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+261,70180,A330 Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+262,70181,A330 Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+263,70182,A330 Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for A330,Credit,1,0,USD,2023-01-01 09:00:00
+264,70183,B737-800 Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+265,70184,B737-800 Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+266,70185,B737-800 Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+267,70186,B737-800 Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+268,70187,B737-800 Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for B737-800,Credit,1,0,USD,2023-01-01 09:00:00
+269,70188,B737 MAX 8 Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+270,70189,B737 MAX 8 Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+271,70190,B737 MAX 8 Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+272,70191,B737 MAX 8 Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+273,70192,B737 MAX 8 Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for B737 MAX 8,Credit,1,0,USD,2023-01-01 09:00:00
+274,70193,B787-9 Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+275,70194,B787-9 Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+276,70195,B787-9 Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+277,70196,B787-9 Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+278,70197,B787-9 Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for B787-9,Credit,1,0,USD,2023-01-01 09:00:00
+279,70198,E175 Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+280,70199,E175 Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+281,70200,E175 Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+282,70201,E175 Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+283,70202,E175 Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for E175,Credit,1,0,USD,2023-01-01 09:00:00
+284,70203,E190 Fuel Expense,Expense,Expense,5100,Fleet-specific fuel expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+285,70204,E190 Maintenance Expense,Expense,Expense,5300,Fleet-specific maintenance expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+286,70205,E190 Lease Expense,Expense,Expense,5500,Fleet-specific lease expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+287,70206,E190 Depreciation Expense,Expense,Expense,5900,Fleet-specific depreciation expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+288,70207,E190 Passenger Revenue,Revenue,Revenue,4100,Fleet-specific passenger revenue for E190,Credit,1,0,USD,2023-01-01 09:00:00
+289,70208,Flight Operations Travel & Training,Expense,Expense,5950,Department travel and training for Flight Operations,Debit,1,0,USD,2023-01-01 09:00:00
+290,70209,Flight Operations Professional Services,Expense,Expense,5950,Professional services used by Flight Operations,Debit,1,0,USD,2023-01-01 09:00:00
+291,70210,Flight Operations Software Subscriptions,Expense,Expense,5960,Software and systems used by Flight Operations,Debit,1,0,USD,2023-01-01 09:00:00
+292,70211,Flight Operations Office Supplies,Expense,Expense,5970,Office and facility supplies for Flight Operations,Debit,1,0,USD,2023-01-01 09:00:00
+293,70212,Maintenance & Engineering Travel & Training,Expense,Expense,5950,Department travel and training for Maintenance & Engineering,Debit,1,0,USD,2023-01-01 09:00:00
+294,70213,Maintenance & Engineering Professional Services,Expense,Expense,5950,Professional services used by Maintenance & Engineering,Debit,1,0,USD,2023-01-01 09:00:00
+295,70214,Maintenance & Engineering Software Subscriptions,Expense,Expense,5960,Software and systems used by Maintenance & Engineering,Debit,1,0,USD,2023-01-01 09:00:00
+296,70215,Maintenance & Engineering Office Supplies,Expense,Expense,5970,Office and facility supplies for Maintenance & Engineering,Debit,1,0,USD,2023-01-01 09:00:00
+297,70216,Airport Operations Travel & Training,Expense,Expense,5950,Department travel and training for Airport Operations,Debit,1,0,USD,2023-01-01 09:00:00
+298,70217,Airport Operations Professional Services,Expense,Expense,5950,Professional services used by Airport Operations,Debit,1,0,USD,2023-01-01 09:00:00
+299,70218,Airport Operations Software Subscriptions,Expense,Expense,5960,Software and systems used by Airport Operations,Debit,1,0,USD,2023-01-01 09:00:00
+300,70219,Airport Operations Office Supplies,Expense,Expense,5970,Office and facility supplies for Airport Operations,Debit,1,0,USD,2023-01-01 09:00:00
+301,70220,Commercial & Marketing Travel & Training,Expense,Expense,5950,Department travel and training for Commercial & Marketing,Debit,1,0,USD,2023-01-01 09:00:00
+302,70221,Commercial & Marketing Professional Services,Expense,Expense,5950,Professional services used by Commercial & Marketing,Debit,1,0,USD,2023-01-01 09:00:00
+303,70222,Commercial & Marketing Software Subscriptions,Expense,Expense,5960,Software and systems used by Commercial & Marketing,Debit,1,0,USD,2023-01-01 09:00:00
+304,70223,Commercial & Marketing Office Supplies,Expense,Expense,5970,Office and facility supplies for Commercial & Marketing,Debit,1,0,USD,2023-01-01 09:00:00
+305,70224,Customer Experience Travel & Training,Expense,Expense,5950,Department travel and training for Customer Experience,Debit,1,0,USD,2023-01-01 09:00:00
+306,70225,Customer Experience Professional Services,Expense,Expense,5950,Professional services used by Customer Experience,Debit,1,0,USD,2023-01-01 09:00:00
+307,70226,Customer Experience Software Subscriptions,Expense,Expense,5960,Software and systems used by Customer Experience,Debit,1,0,USD,2023-01-01 09:00:00
+308,70227,Customer Experience Office Supplies,Expense,Expense,5970,Office and facility supplies for Customer Experience,Debit,1,0,USD,2023-01-01 09:00:00
+309,70228,Finance & Accounting Travel & Training,Expense,Expense,5950,Department travel and training for Finance & Accounting,Debit,1,0,USD,2023-01-01 09:00:00
+310,70229,Finance & Accounting Professional Services,Expense,Expense,5950,Professional services used by Finance & Accounting,Debit,1,0,USD,2023-01-01 09:00:00
+311,70230,Finance & Accounting Software Subscriptions,Expense,Expense,5960,Software and systems used by Finance & Accounting,Debit,1,0,USD,2023-01-01 09:00:00
+312,70231,Finance & Accounting Office Supplies,Expense,Expense,5970,Office and facility supplies for Finance & Accounting,Debit,1,0,USD,2023-01-01 09:00:00
+313,70232,Corporate Services Travel & Training,Expense,Expense,5950,Department travel and training for Corporate Services,Debit,1,0,USD,2023-01-01 09:00:00
+314,70233,Corporate Services Professional Services,Expense,Expense,5950,Professional services used by Corporate Services,Debit,1,0,USD,2023-01-01 09:00:00
+315,70234,Corporate Services Software Subscriptions,Expense,Expense,5960,Software and systems used by Corporate Services,Debit,1,0,USD,2023-01-01 09:00:00
+316,70235,Corporate Services Office Supplies,Expense,Expense,5970,Office and facility supplies for Corporate Services,Debit,1,0,USD,2023-01-01 09:00:00
+317,70236,Route Passenger Revenue - ATL-LAX,Revenue,Revenue,4100,Detailed revenue reporting for route ATL-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+318,70237,Route Cargo Revenue - ATL-LAX,Revenue,Revenue,4300,Detailed revenue reporting for route ATL-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+319,70238,Route Ancillary Revenue - ATL-LAX,Revenue,Revenue,4430,Detailed revenue reporting for route ATL-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+320,70239,Route Passenger Revenue - LAX-JFK,Revenue,Revenue,4100,Detailed revenue reporting for route LAX-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+321,70240,Route Cargo Revenue - LAX-JFK,Revenue,Revenue,4300,Detailed revenue reporting for route LAX-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+322,70241,Route Ancillary Revenue - LAX-JFK,Revenue,Revenue,4430,Detailed revenue reporting for route LAX-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+323,70242,Route Passenger Revenue - ORD-MIA,Revenue,Revenue,4100,Detailed revenue reporting for route ORD-MIA,Credit,1,0,USD,2023-01-01 09:00:00
+324,70243,Route Cargo Revenue - ORD-MIA,Revenue,Revenue,4300,Detailed revenue reporting for route ORD-MIA,Credit,1,0,USD,2023-01-01 09:00:00
+325,70244,Route Ancillary Revenue - ORD-MIA,Revenue,Revenue,4430,Detailed revenue reporting for route ORD-MIA,Credit,1,0,USD,2023-01-01 09:00:00
+326,70245,Route Passenger Revenue - DFW-SFO,Revenue,Revenue,4100,Detailed revenue reporting for route DFW-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+327,70246,Route Cargo Revenue - DFW-SFO,Revenue,Revenue,4300,Detailed revenue reporting for route DFW-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+328,70247,Route Ancillary Revenue - DFW-SFO,Revenue,Revenue,4430,Detailed revenue reporting for route DFW-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+329,70248,Route Passenger Revenue - SEA-DEN,Revenue,Revenue,4100,Detailed revenue reporting for route SEA-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+330,70249,Route Cargo Revenue - SEA-DEN,Revenue,Revenue,4300,Detailed revenue reporting for route SEA-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+331,70250,Route Ancillary Revenue - SEA-DEN,Revenue,Revenue,4430,Detailed revenue reporting for route SEA-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+332,70251,Route Passenger Revenue - BOS-ATL,Revenue,Revenue,4100,Detailed revenue reporting for route BOS-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+333,70252,Route Cargo Revenue - BOS-ATL,Revenue,Revenue,4300,Detailed revenue reporting for route BOS-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+334,70253,Route Ancillary Revenue - BOS-ATL,Revenue,Revenue,4430,Detailed revenue reporting for route BOS-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+335,70254,Route Passenger Revenue - MCO-LGA,Revenue,Revenue,4100,Detailed revenue reporting for route MCO-LGA,Credit,1,0,USD,2023-01-01 09:00:00
+336,70255,Route Cargo Revenue - MCO-LGA,Revenue,Revenue,4300,Detailed revenue reporting for route MCO-LGA,Credit,1,0,USD,2023-01-01 09:00:00
+337,70256,Route Ancillary Revenue - MCO-LGA,Revenue,Revenue,4430,Detailed revenue reporting for route MCO-LGA,Credit,1,0,USD,2023-01-01 09:00:00
+338,70257,Route Passenger Revenue - PHX-ORD,Revenue,Revenue,4100,Detailed revenue reporting for route PHX-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+339,70258,Route Cargo Revenue - PHX-ORD,Revenue,Revenue,4300,Detailed revenue reporting for route PHX-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+340,70259,Route Ancillary Revenue - PHX-ORD,Revenue,Revenue,4430,Detailed revenue reporting for route PHX-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+341,70260,Route Passenger Revenue - IAH-LAX,Revenue,Revenue,4100,Detailed revenue reporting for route IAH-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+342,70261,Route Cargo Revenue - IAH-LAX,Revenue,Revenue,4300,Detailed revenue reporting for route IAH-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+343,70262,Route Ancillary Revenue - IAH-LAX,Revenue,Revenue,4430,Detailed revenue reporting for route IAH-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+344,70263,Route Passenger Revenue - JFK-SFO,Revenue,Revenue,4100,Detailed revenue reporting for route JFK-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+345,70264,Route Cargo Revenue - JFK-SFO,Revenue,Revenue,4300,Detailed revenue reporting for route JFK-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+346,70265,Route Ancillary Revenue - JFK-SFO,Revenue,Revenue,4430,Detailed revenue reporting for route JFK-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+347,70266,Route Passenger Revenue - LAS-SEA,Revenue,Revenue,4100,Detailed revenue reporting for route LAS-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+348,70267,Route Cargo Revenue - LAS-SEA,Revenue,Revenue,4300,Detailed revenue reporting for route LAS-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+349,70268,Route Ancillary Revenue - LAS-SEA,Revenue,Revenue,4430,Detailed revenue reporting for route LAS-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+350,70269,Route Passenger Revenue - DEN-ATL,Revenue,Revenue,4100,Detailed revenue reporting for route DEN-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+351,70270,Route Cargo Revenue - DEN-ATL,Revenue,Revenue,4300,Detailed revenue reporting for route DEN-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+352,70271,Route Ancillary Revenue - DEN-ATL,Revenue,Revenue,4430,Detailed revenue reporting for route DEN-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+353,70272,Route Passenger Revenue - SFO-SEA,Revenue,Revenue,4100,Detailed revenue reporting for route SFO-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+354,70273,Route Cargo Revenue - SFO-SEA,Revenue,Revenue,4300,Detailed revenue reporting for route SFO-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+355,70274,Route Ancillary Revenue - SFO-SEA,Revenue,Revenue,4430,Detailed revenue reporting for route SFO-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+356,70275,Route Passenger Revenue - MIA-DFW,Revenue,Revenue,4100,Detailed revenue reporting for route MIA-DFW,Credit,1,0,USD,2023-01-01 09:00:00
+357,70276,Route Cargo Revenue - MIA-DFW,Revenue,Revenue,4300,Detailed revenue reporting for route MIA-DFW,Credit,1,0,USD,2023-01-01 09:00:00
+358,70277,Route Ancillary Revenue - MIA-DFW,Revenue,Revenue,4430,Detailed revenue reporting for route MIA-DFW,Credit,1,0,USD,2023-01-01 09:00:00
+359,70278,Route Passenger Revenue - MSP-BOS,Revenue,Revenue,4100,Detailed revenue reporting for route MSP-BOS,Credit,1,0,USD,2023-01-01 09:00:00
+360,70279,Route Cargo Revenue - MSP-BOS,Revenue,Revenue,4300,Detailed revenue reporting for route MSP-BOS,Credit,1,0,USD,2023-01-01 09:00:00
+361,70280,Route Ancillary Revenue - MSP-BOS,Revenue,Revenue,4430,Detailed revenue reporting for route MSP-BOS,Credit,1,0,USD,2023-01-01 09:00:00
+362,70281,Route Passenger Revenue - PDX-LAS,Revenue,Revenue,4100,Detailed revenue reporting for route PDX-LAS,Credit,1,0,USD,2023-01-01 09:00:00
+363,70282,Route Cargo Revenue - PDX-LAS,Revenue,Revenue,4300,Detailed revenue reporting for route PDX-LAS,Credit,1,0,USD,2023-01-01 09:00:00
+364,70283,Route Ancillary Revenue - PDX-LAS,Revenue,Revenue,4430,Detailed revenue reporting for route PDX-LAS,Credit,1,0,USD,2023-01-01 09:00:00
+365,70284,Route Passenger Revenue - SAN-ORD,Revenue,Revenue,4100,Detailed revenue reporting for route SAN-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+366,70285,Route Cargo Revenue - SAN-ORD,Revenue,Revenue,4300,Detailed revenue reporting for route SAN-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+367,70286,Route Ancillary Revenue - SAN-ORD,Revenue,Revenue,4430,Detailed revenue reporting for route SAN-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+368,70287,Route Passenger Revenue - CLT-MCO,Revenue,Revenue,4100,Detailed revenue reporting for route CLT-MCO,Credit,1,0,USD,2023-01-01 09:00:00
+369,70288,Route Cargo Revenue - CLT-MCO,Revenue,Revenue,4300,Detailed revenue reporting for route CLT-MCO,Credit,1,0,USD,2023-01-01 09:00:00
+370,70289,Route Ancillary Revenue - CLT-MCO,Revenue,Revenue,4430,Detailed revenue reporting for route CLT-MCO,Credit,1,0,USD,2023-01-01 09:00:00
+371,70290,Route Passenger Revenue - IAD-DEN,Revenue,Revenue,4100,Detailed revenue reporting for route IAD-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+372,70291,Route Cargo Revenue - IAD-DEN,Revenue,Revenue,4300,Detailed revenue reporting for route IAD-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+373,70292,Route Ancillary Revenue - IAD-DEN,Revenue,Revenue,4430,Detailed revenue reporting for route IAD-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+374,70293,Route Passenger Revenue - AUS-LAX,Revenue,Revenue,4100,Detailed revenue reporting for route AUS-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+375,70294,Route Cargo Revenue - AUS-LAX,Revenue,Revenue,4300,Detailed revenue reporting for route AUS-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+376,70295,Route Ancillary Revenue - AUS-LAX,Revenue,Revenue,4430,Detailed revenue reporting for route AUS-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+377,70296,Route Passenger Revenue - NRT-LAX,Revenue,Revenue,4100,Detailed revenue reporting for route NRT-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+378,70297,Route Cargo Revenue - NRT-LAX,Revenue,Revenue,4300,Detailed revenue reporting for route NRT-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+379,70298,Route Ancillary Revenue - NRT-LAX,Revenue,Revenue,4430,Detailed revenue reporting for route NRT-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+380,70299,Route Passenger Revenue - LHR-JFK,Revenue,Revenue,4100,Detailed revenue reporting for route LHR-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+381,70300,Route Cargo Revenue - LHR-JFK,Revenue,Revenue,4300,Detailed revenue reporting for route LHR-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+382,70301,Route Ancillary Revenue - LHR-JFK,Revenue,Revenue,4430,Detailed revenue reporting for route LHR-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+383,70302,Route Passenger Revenue - SFO-NRT,Revenue,Revenue,4100,Detailed revenue reporting for route SFO-NRT,Credit,1,0,USD,2023-01-01 09:00:00
+384,70303,Route Cargo Revenue - SFO-NRT,Revenue,Revenue,4300,Detailed revenue reporting for route SFO-NRT,Credit,1,0,USD,2023-01-01 09:00:00
+385,70304,Route Ancillary Revenue - SFO-NRT,Revenue,Revenue,4430,Detailed revenue reporting for route SFO-NRT,Credit,1,0,USD,2023-01-01 09:00:00
+386,70305,Route Passenger Revenue - JFK-LHR,Revenue,Revenue,4100,Detailed revenue reporting for route JFK-LHR,Credit,1,0,USD,2023-01-01 09:00:00
+387,70306,Route Cargo Revenue - JFK-LHR,Revenue,Revenue,4300,Detailed revenue reporting for route JFK-LHR,Credit,1,0,USD,2023-01-01 09:00:00
+388,70307,Route Ancillary Revenue - JFK-LHR,Revenue,Revenue,4430,Detailed revenue reporting for route JFK-LHR,Credit,1,0,USD,2023-01-01 09:00:00
+389,70308,Route Passenger Revenue - DFW-CUN,Revenue,Revenue,4100,Detailed revenue reporting for route DFW-CUN,Credit,1,0,USD,2023-01-01 09:00:00
+390,70309,Route Cargo Revenue - DFW-CUN,Revenue,Revenue,4300,Detailed revenue reporting for route DFW-CUN,Credit,1,0,USD,2023-01-01 09:00:00
+391,70310,Route Ancillary Revenue - DFW-CUN,Revenue,Revenue,4430,Detailed revenue reporting for route DFW-CUN,Credit,1,0,USD,2023-01-01 09:00:00
+392,70311,Route Passenger Revenue - ORD-SFO,Revenue,Revenue,4100,Detailed revenue reporting for route ORD-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+393,70312,Route Cargo Revenue - ORD-SFO,Revenue,Revenue,4300,Detailed revenue reporting for route ORD-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+394,70313,Route Ancillary Revenue - ORD-SFO,Revenue,Revenue,4430,Detailed revenue reporting for route ORD-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+395,70314,CC-FLT-100 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-100,Debit,1,0,USD,2023-01-01 09:00:00
+396,70315,CC-FLT-100 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-100,Credit,1,0,USD,2023-01-01 09:00:00
+397,70316,CC-FLT-100 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-100,Debit,1,0,USD,2023-01-01 09:00:00
+398,70317,CC-FLT-105 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-105,Debit,1,0,USD,2023-01-01 09:00:00
+399,70318,CC-FLT-105 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-105,Credit,1,0,USD,2023-01-01 09:00:00
+400,70319,CC-FLT-105 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-105,Debit,1,0,USD,2023-01-01 09:00:00
+401,70320,CC-FLT-110 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-110,Debit,1,0,USD,2023-01-01 09:00:00
+402,70321,CC-FLT-110 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-110,Credit,1,0,USD,2023-01-01 09:00:00
+403,70322,CC-FLT-110 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-110,Debit,1,0,USD,2023-01-01 09:00:00
+404,70323,CC-FLT-115 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-115,Debit,1,0,USD,2023-01-01 09:00:00
+405,70324,CC-FLT-115 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-115,Credit,1,0,USD,2023-01-01 09:00:00
+406,70325,CC-FLT-115 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-115,Debit,1,0,USD,2023-01-01 09:00:00
+407,70326,CC-FLT-120 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-120,Debit,1,0,USD,2023-01-01 09:00:00
+408,70327,CC-FLT-120 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-120,Credit,1,0,USD,2023-01-01 09:00:00
+409,70328,CC-FLT-120 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-120,Debit,1,0,USD,2023-01-01 09:00:00
+410,70329,CC-FLT-125 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-125,Debit,1,0,USD,2023-01-01 09:00:00
+411,70330,CC-FLT-125 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-125,Credit,1,0,USD,2023-01-01 09:00:00
+412,70331,CC-FLT-125 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-125,Debit,1,0,USD,2023-01-01 09:00:00
+413,70332,CC-FLT-130 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-130,Debit,1,0,USD,2023-01-01 09:00:00
+414,70333,CC-FLT-130 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-130,Credit,1,0,USD,2023-01-01 09:00:00
+415,70334,CC-FLT-130 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-130,Debit,1,0,USD,2023-01-01 09:00:00
+416,70335,CC-FLT-135 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-135,Debit,1,0,USD,2023-01-01 09:00:00
+417,70336,CC-FLT-135 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-135,Credit,1,0,USD,2023-01-01 09:00:00
+418,70337,CC-FLT-135 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-135,Debit,1,0,USD,2023-01-01 09:00:00
+419,70338,CC-FLT-140 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-140,Debit,1,0,USD,2023-01-01 09:00:00
+420,70339,CC-FLT-140 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-140,Credit,1,0,USD,2023-01-01 09:00:00
+421,70340,CC-FLT-140 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-140,Debit,1,0,USD,2023-01-01 09:00:00
+422,70341,CC-FLT-145 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-145,Debit,1,0,USD,2023-01-01 09:00:00
+423,70342,CC-FLT-145 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-145,Credit,1,0,USD,2023-01-01 09:00:00
+424,70343,CC-FLT-145 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-145,Debit,1,0,USD,2023-01-01 09:00:00
+425,70344,CC-FLT-150 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-150,Debit,1,0,USD,2023-01-01 09:00:00
+426,70345,CC-FLT-150 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-150,Credit,1,0,USD,2023-01-01 09:00:00
+427,70346,CC-FLT-150 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-150,Debit,1,0,USD,2023-01-01 09:00:00
+428,70347,CC-FLT-155 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-155,Debit,1,0,USD,2023-01-01 09:00:00
+429,70348,CC-FLT-155 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-155,Credit,1,0,USD,2023-01-01 09:00:00
+430,70349,CC-FLT-155 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-155,Debit,1,0,USD,2023-01-01 09:00:00
+431,70350,CC-FLT-160 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-160,Debit,1,0,USD,2023-01-01 09:00:00
+432,70351,CC-FLT-160 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-160,Credit,1,0,USD,2023-01-01 09:00:00
+433,70352,CC-FLT-160 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-160,Debit,1,0,USD,2023-01-01 09:00:00
+434,70353,CC-FLT-165 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-165,Debit,1,0,USD,2023-01-01 09:00:00
+435,70354,CC-FLT-165 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-165,Credit,1,0,USD,2023-01-01 09:00:00
+436,70355,CC-FLT-165 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-165,Debit,1,0,USD,2023-01-01 09:00:00
+437,70356,CC-FLT-170 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-170,Debit,1,0,USD,2023-01-01 09:00:00
+438,70357,CC-FLT-170 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-170,Credit,1,0,USD,2023-01-01 09:00:00
+439,70358,CC-FLT-170 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-170,Debit,1,0,USD,2023-01-01 09:00:00
+440,70359,CC-FLT-175 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-175,Debit,1,0,USD,2023-01-01 09:00:00
+441,70360,CC-FLT-175 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-175,Credit,1,0,USD,2023-01-01 09:00:00
+442,70361,CC-FLT-175 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-175,Debit,1,0,USD,2023-01-01 09:00:00
+443,70362,CC-FLT-180 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-180,Debit,1,0,USD,2023-01-01 09:00:00
+444,70363,CC-FLT-180 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-180,Credit,1,0,USD,2023-01-01 09:00:00
+445,70364,CC-FLT-180 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-180,Debit,1,0,USD,2023-01-01 09:00:00
+446,70365,CC-FLT-185 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-185,Debit,1,0,USD,2023-01-01 09:00:00
+447,70366,CC-FLT-185 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-185,Credit,1,0,USD,2023-01-01 09:00:00
+448,70367,CC-FLT-185 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-185,Debit,1,0,USD,2023-01-01 09:00:00
+449,70368,CC-FLT-190 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-190,Debit,1,0,USD,2023-01-01 09:00:00
+450,70369,CC-FLT-190 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-190,Credit,1,0,USD,2023-01-01 09:00:00
+451,70370,CC-FLT-190 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-190,Debit,1,0,USD,2023-01-01 09:00:00
+452,70371,CC-FLT-195 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FLT-195,Debit,1,0,USD,2023-01-01 09:00:00
+453,70372,CC-FLT-195 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FLT-195,Credit,1,0,USD,2023-01-01 09:00:00
+454,70373,CC-FLT-195 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FLT-195,Debit,1,0,USD,2023-01-01 09:00:00
+455,70374,CC-MNT-100 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-100,Debit,1,0,USD,2023-01-01 09:00:00
+456,70375,CC-MNT-100 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-100,Credit,1,0,USD,2023-01-01 09:00:00
+457,70376,CC-MNT-100 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-100,Debit,1,0,USD,2023-01-01 09:00:00
+458,70377,CC-MNT-105 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-105,Debit,1,0,USD,2023-01-01 09:00:00
+459,70378,CC-MNT-105 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-105,Credit,1,0,USD,2023-01-01 09:00:00
+460,70379,CC-MNT-105 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-105,Debit,1,0,USD,2023-01-01 09:00:00
+461,70380,CC-MNT-110 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-110,Debit,1,0,USD,2023-01-01 09:00:00
+462,70381,CC-MNT-110 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-110,Credit,1,0,USD,2023-01-01 09:00:00
+463,70382,CC-MNT-110 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-110,Debit,1,0,USD,2023-01-01 09:00:00
+464,70383,CC-MNT-115 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-115,Debit,1,0,USD,2023-01-01 09:00:00
+465,70384,CC-MNT-115 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-115,Credit,1,0,USD,2023-01-01 09:00:00
+466,70385,CC-MNT-115 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-115,Debit,1,0,USD,2023-01-01 09:00:00
+467,70386,CC-MNT-120 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-120,Debit,1,0,USD,2023-01-01 09:00:00
+468,70387,CC-MNT-120 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-120,Credit,1,0,USD,2023-01-01 09:00:00
+469,70388,CC-MNT-120 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-120,Debit,1,0,USD,2023-01-01 09:00:00
+470,70389,CC-MNT-125 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-125,Debit,1,0,USD,2023-01-01 09:00:00
+471,70390,CC-MNT-125 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-125,Credit,1,0,USD,2023-01-01 09:00:00
+472,70391,CC-MNT-125 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-125,Debit,1,0,USD,2023-01-01 09:00:00
+473,70392,CC-MNT-130 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-130,Debit,1,0,USD,2023-01-01 09:00:00
+474,70393,CC-MNT-130 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-130,Credit,1,0,USD,2023-01-01 09:00:00
+475,70394,CC-MNT-130 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-130,Debit,1,0,USD,2023-01-01 09:00:00
+476,70395,CC-MNT-135 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-135,Debit,1,0,USD,2023-01-01 09:00:00
+477,70396,CC-MNT-135 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-135,Credit,1,0,USD,2023-01-01 09:00:00
+478,70397,CC-MNT-135 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-135,Debit,1,0,USD,2023-01-01 09:00:00
+479,70398,CC-MNT-140 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-140,Debit,1,0,USD,2023-01-01 09:00:00
+480,70399,CC-MNT-140 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-140,Credit,1,0,USD,2023-01-01 09:00:00
+481,70400,CC-MNT-140 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-140,Debit,1,0,USD,2023-01-01 09:00:00
+482,70401,CC-MNT-145 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-145,Debit,1,0,USD,2023-01-01 09:00:00
+483,70402,CC-MNT-145 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-145,Credit,1,0,USD,2023-01-01 09:00:00
+484,70403,CC-MNT-145 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-145,Debit,1,0,USD,2023-01-01 09:00:00
+485,70404,CC-MNT-150 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-150,Debit,1,0,USD,2023-01-01 09:00:00
+486,70405,CC-MNT-150 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-150,Credit,1,0,USD,2023-01-01 09:00:00
+487,70406,CC-MNT-150 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-150,Debit,1,0,USD,2023-01-01 09:00:00
+488,70407,CC-MNT-155 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-155,Debit,1,0,USD,2023-01-01 09:00:00
+489,70408,CC-MNT-155 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-155,Credit,1,0,USD,2023-01-01 09:00:00
+490,70409,CC-MNT-155 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-155,Debit,1,0,USD,2023-01-01 09:00:00
+491,70410,CC-MNT-160 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-160,Debit,1,0,USD,2023-01-01 09:00:00
+492,70411,CC-MNT-160 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-160,Credit,1,0,USD,2023-01-01 09:00:00
+493,70412,CC-MNT-160 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-160,Debit,1,0,USD,2023-01-01 09:00:00
+494,70413,CC-MNT-165 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-165,Debit,1,0,USD,2023-01-01 09:00:00
+495,70414,CC-MNT-165 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-165,Credit,1,0,USD,2023-01-01 09:00:00
+496,70415,CC-MNT-165 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-165,Debit,1,0,USD,2023-01-01 09:00:00
+497,70416,CC-MNT-170 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-170,Debit,1,0,USD,2023-01-01 09:00:00
+498,70417,CC-MNT-170 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-170,Credit,1,0,USD,2023-01-01 09:00:00
+499,70418,CC-MNT-170 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-170,Debit,1,0,USD,2023-01-01 09:00:00
+500,70419,CC-MNT-175 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-175,Debit,1,0,USD,2023-01-01 09:00:00
+501,70420,CC-MNT-175 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-175,Credit,1,0,USD,2023-01-01 09:00:00
+502,70421,CC-MNT-175 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-175,Debit,1,0,USD,2023-01-01 09:00:00
+503,70422,CC-MNT-180 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-180,Debit,1,0,USD,2023-01-01 09:00:00
+504,70423,CC-MNT-180 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-180,Credit,1,0,USD,2023-01-01 09:00:00
+505,70424,CC-MNT-180 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-180,Debit,1,0,USD,2023-01-01 09:00:00
+506,70425,CC-MNT-185 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-185,Debit,1,0,USD,2023-01-01 09:00:00
+507,70426,CC-MNT-185 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-185,Credit,1,0,USD,2023-01-01 09:00:00
+508,70427,CC-MNT-185 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-185,Debit,1,0,USD,2023-01-01 09:00:00
+509,70428,CC-MNT-190 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-190,Debit,1,0,USD,2023-01-01 09:00:00
+510,70429,CC-MNT-190 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-190,Credit,1,0,USD,2023-01-01 09:00:00
+511,70430,CC-MNT-190 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-190,Debit,1,0,USD,2023-01-01 09:00:00
+512,70431,CC-MNT-195 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-MNT-195,Debit,1,0,USD,2023-01-01 09:00:00
+513,70432,CC-MNT-195 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-MNT-195,Credit,1,0,USD,2023-01-01 09:00:00
+514,70433,CC-MNT-195 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-MNT-195,Debit,1,0,USD,2023-01-01 09:00:00
+515,70434,CC-AIR-100 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-100,Debit,1,0,USD,2023-01-01 09:00:00
+516,70435,CC-AIR-100 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-100,Credit,1,0,USD,2023-01-01 09:00:00
+517,70436,CC-AIR-100 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-100,Debit,1,0,USD,2023-01-01 09:00:00
+518,70437,CC-AIR-105 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-105,Debit,1,0,USD,2023-01-01 09:00:00
+519,70438,CC-AIR-105 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-105,Credit,1,0,USD,2023-01-01 09:00:00
+520,70439,CC-AIR-105 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-105,Debit,1,0,USD,2023-01-01 09:00:00
+521,70440,CC-AIR-110 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-110,Debit,1,0,USD,2023-01-01 09:00:00
+522,70441,CC-AIR-110 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-110,Credit,1,0,USD,2023-01-01 09:00:00
+523,70442,CC-AIR-110 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-110,Debit,1,0,USD,2023-01-01 09:00:00
+524,70443,CC-AIR-115 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-115,Debit,1,0,USD,2023-01-01 09:00:00
+525,70444,CC-AIR-115 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-115,Credit,1,0,USD,2023-01-01 09:00:00
+526,70445,CC-AIR-115 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-115,Debit,1,0,USD,2023-01-01 09:00:00
+527,70446,CC-AIR-120 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-120,Debit,1,0,USD,2023-01-01 09:00:00
+528,70447,CC-AIR-120 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-120,Credit,1,0,USD,2023-01-01 09:00:00
+529,70448,CC-AIR-120 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-120,Debit,1,0,USD,2023-01-01 09:00:00
+530,70449,CC-AIR-125 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-125,Debit,1,0,USD,2023-01-01 09:00:00
+531,70450,CC-AIR-125 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-125,Credit,1,0,USD,2023-01-01 09:00:00
+532,70451,CC-AIR-125 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-125,Debit,1,0,USD,2023-01-01 09:00:00
+533,70452,CC-AIR-130 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-130,Debit,1,0,USD,2023-01-01 09:00:00
+534,70453,CC-AIR-130 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-130,Credit,1,0,USD,2023-01-01 09:00:00
+535,70454,CC-AIR-130 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-130,Debit,1,0,USD,2023-01-01 09:00:00
+536,70455,CC-AIR-135 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-135,Debit,1,0,USD,2023-01-01 09:00:00
+537,70456,CC-AIR-135 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-135,Credit,1,0,USD,2023-01-01 09:00:00
+538,70457,CC-AIR-135 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-135,Debit,1,0,USD,2023-01-01 09:00:00
+539,70458,CC-AIR-140 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-140,Debit,1,0,USD,2023-01-01 09:00:00
+540,70459,CC-AIR-140 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-140,Credit,1,0,USD,2023-01-01 09:00:00
+541,70460,CC-AIR-140 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-140,Debit,1,0,USD,2023-01-01 09:00:00
+542,70461,CC-AIR-145 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-145,Debit,1,0,USD,2023-01-01 09:00:00
+543,70462,CC-AIR-145 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-145,Credit,1,0,USD,2023-01-01 09:00:00
+544,70463,CC-AIR-145 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-145,Debit,1,0,USD,2023-01-01 09:00:00
+545,70464,CC-AIR-150 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-150,Debit,1,0,USD,2023-01-01 09:00:00
+546,70465,CC-AIR-150 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-150,Credit,1,0,USD,2023-01-01 09:00:00
+547,70466,CC-AIR-150 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-150,Debit,1,0,USD,2023-01-01 09:00:00
+548,70467,CC-AIR-155 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-155,Debit,1,0,USD,2023-01-01 09:00:00
+549,70468,CC-AIR-155 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-155,Credit,1,0,USD,2023-01-01 09:00:00
+550,70469,CC-AIR-155 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-155,Debit,1,0,USD,2023-01-01 09:00:00
+551,70470,CC-AIR-160 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-160,Debit,1,0,USD,2023-01-01 09:00:00
+552,70471,CC-AIR-160 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-160,Credit,1,0,USD,2023-01-01 09:00:00
+553,70472,CC-AIR-160 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-160,Debit,1,0,USD,2023-01-01 09:00:00
+554,70473,CC-AIR-165 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-165,Debit,1,0,USD,2023-01-01 09:00:00
+555,70474,CC-AIR-165 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-165,Credit,1,0,USD,2023-01-01 09:00:00
+556,70475,CC-AIR-165 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-165,Debit,1,0,USD,2023-01-01 09:00:00
+557,70476,CC-AIR-170 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-170,Debit,1,0,USD,2023-01-01 09:00:00
+558,70477,CC-AIR-170 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-170,Credit,1,0,USD,2023-01-01 09:00:00
+559,70478,CC-AIR-170 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-170,Debit,1,0,USD,2023-01-01 09:00:00
+560,70479,CC-AIR-175 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-175,Debit,1,0,USD,2023-01-01 09:00:00
+561,70480,CC-AIR-175 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-175,Credit,1,0,USD,2023-01-01 09:00:00
+562,70481,CC-AIR-175 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-175,Debit,1,0,USD,2023-01-01 09:00:00
+563,70482,CC-AIR-180 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-180,Debit,1,0,USD,2023-01-01 09:00:00
+564,70483,CC-AIR-180 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-180,Credit,1,0,USD,2023-01-01 09:00:00
+565,70484,CC-AIR-180 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-180,Debit,1,0,USD,2023-01-01 09:00:00
+566,70485,CC-AIR-185 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-185,Debit,1,0,USD,2023-01-01 09:00:00
+567,70486,CC-AIR-185 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-185,Credit,1,0,USD,2023-01-01 09:00:00
+568,70487,CC-AIR-185 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-185,Debit,1,0,USD,2023-01-01 09:00:00
+569,70488,CC-AIR-190 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-190,Debit,1,0,USD,2023-01-01 09:00:00
+570,70489,CC-AIR-190 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-190,Credit,1,0,USD,2023-01-01 09:00:00
+571,70490,CC-AIR-190 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-190,Debit,1,0,USD,2023-01-01 09:00:00
+572,70491,CC-AIR-195 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-AIR-195,Debit,1,0,USD,2023-01-01 09:00:00
+573,70492,CC-AIR-195 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-AIR-195,Credit,1,0,USD,2023-01-01 09:00:00
+574,70493,CC-AIR-195 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-AIR-195,Debit,1,0,USD,2023-01-01 09:00:00
+575,70494,CC-COM-100 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-100,Debit,1,0,USD,2023-01-01 09:00:00
+576,70495,CC-COM-100 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-100,Credit,1,0,USD,2023-01-01 09:00:00
+577,70496,CC-COM-100 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-100,Debit,1,0,USD,2023-01-01 09:00:00
+578,70497,CC-COM-105 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-105,Debit,1,0,USD,2023-01-01 09:00:00
+579,70498,CC-COM-105 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-105,Credit,1,0,USD,2023-01-01 09:00:00
+580,70499,CC-COM-105 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-105,Debit,1,0,USD,2023-01-01 09:00:00
+581,70500,CC-COM-110 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-110,Debit,1,0,USD,2023-01-01 09:00:00
+582,70501,CC-COM-110 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-110,Credit,1,0,USD,2023-01-01 09:00:00
+583,70502,CC-COM-110 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-110,Debit,1,0,USD,2023-01-01 09:00:00
+584,70503,CC-COM-115 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-115,Debit,1,0,USD,2023-01-01 09:00:00
+585,70504,CC-COM-115 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-115,Credit,1,0,USD,2023-01-01 09:00:00
+586,70505,CC-COM-115 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-115,Debit,1,0,USD,2023-01-01 09:00:00
+587,70506,CC-COM-120 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-120,Debit,1,0,USD,2023-01-01 09:00:00
+588,70507,CC-COM-120 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-120,Credit,1,0,USD,2023-01-01 09:00:00
+589,70508,CC-COM-120 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-120,Debit,1,0,USD,2023-01-01 09:00:00
+590,70509,CC-COM-125 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-125,Debit,1,0,USD,2023-01-01 09:00:00
+591,70510,CC-COM-125 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-125,Credit,1,0,USD,2023-01-01 09:00:00
+592,70511,CC-COM-125 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-125,Debit,1,0,USD,2023-01-01 09:00:00
+593,70512,CC-COM-130 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-130,Debit,1,0,USD,2023-01-01 09:00:00
+594,70513,CC-COM-130 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-130,Credit,1,0,USD,2023-01-01 09:00:00
+595,70514,CC-COM-130 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-130,Debit,1,0,USD,2023-01-01 09:00:00
+596,70515,CC-COM-135 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-135,Debit,1,0,USD,2023-01-01 09:00:00
+597,70516,CC-COM-135 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-135,Credit,1,0,USD,2023-01-01 09:00:00
+598,70517,CC-COM-135 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-135,Debit,1,0,USD,2023-01-01 09:00:00
+599,70518,CC-COM-140 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-140,Debit,1,0,USD,2023-01-01 09:00:00
+600,70519,CC-COM-140 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-140,Credit,1,0,USD,2023-01-01 09:00:00
+601,70520,CC-COM-140 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-140,Debit,1,0,USD,2023-01-01 09:00:00
+602,70521,CC-COM-145 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-145,Debit,1,0,USD,2023-01-01 09:00:00
+603,70522,CC-COM-145 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-145,Credit,1,0,USD,2023-01-01 09:00:00
+604,70523,CC-COM-145 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-145,Debit,1,0,USD,2023-01-01 09:00:00
+605,70524,CC-COM-150 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-150,Debit,1,0,USD,2023-01-01 09:00:00
+606,70525,CC-COM-150 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-150,Credit,1,0,USD,2023-01-01 09:00:00
+607,70526,CC-COM-150 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-150,Debit,1,0,USD,2023-01-01 09:00:00
+608,70527,CC-COM-155 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-155,Debit,1,0,USD,2023-01-01 09:00:00
+609,70528,CC-COM-155 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-155,Credit,1,0,USD,2023-01-01 09:00:00
+610,70529,CC-COM-155 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-155,Debit,1,0,USD,2023-01-01 09:00:00
+611,70530,CC-COM-160 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-160,Debit,1,0,USD,2023-01-01 09:00:00
+612,70531,CC-COM-160 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-160,Credit,1,0,USD,2023-01-01 09:00:00
+613,70532,CC-COM-160 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-160,Debit,1,0,USD,2023-01-01 09:00:00
+614,70533,CC-COM-165 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-165,Debit,1,0,USD,2023-01-01 09:00:00
+615,70534,CC-COM-165 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-165,Credit,1,0,USD,2023-01-01 09:00:00
+616,70535,CC-COM-165 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-165,Debit,1,0,USD,2023-01-01 09:00:00
+617,70536,CC-COM-170 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-170,Debit,1,0,USD,2023-01-01 09:00:00
+618,70537,CC-COM-170 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-170,Credit,1,0,USD,2023-01-01 09:00:00
+619,70538,CC-COM-170 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-170,Debit,1,0,USD,2023-01-01 09:00:00
+620,70539,CC-COM-175 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-175,Debit,1,0,USD,2023-01-01 09:00:00
+621,70540,CC-COM-175 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-175,Credit,1,0,USD,2023-01-01 09:00:00
+622,70541,CC-COM-175 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-175,Debit,1,0,USD,2023-01-01 09:00:00
+623,70542,CC-COM-180 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-180,Debit,1,0,USD,2023-01-01 09:00:00
+624,70543,CC-COM-180 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-180,Credit,1,0,USD,2023-01-01 09:00:00
+625,70544,CC-COM-180 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-180,Debit,1,0,USD,2023-01-01 09:00:00
+626,70545,CC-COM-185 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-185,Debit,1,0,USD,2023-01-01 09:00:00
+627,70546,CC-COM-185 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-185,Credit,1,0,USD,2023-01-01 09:00:00
+628,70547,CC-COM-185 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-185,Debit,1,0,USD,2023-01-01 09:00:00
+629,70548,CC-COM-190 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-190,Debit,1,0,USD,2023-01-01 09:00:00
+630,70549,CC-COM-190 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-190,Credit,1,0,USD,2023-01-01 09:00:00
+631,70550,CC-COM-190 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-190,Debit,1,0,USD,2023-01-01 09:00:00
+632,70551,CC-COM-195 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COM-195,Debit,1,0,USD,2023-01-01 09:00:00
+633,70552,CC-COM-195 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COM-195,Credit,1,0,USD,2023-01-01 09:00:00
+634,70553,CC-COM-195 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COM-195,Debit,1,0,USD,2023-01-01 09:00:00
+635,70554,CC-CAB-100 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-100,Debit,1,0,USD,2023-01-01 09:00:00
+636,70555,CC-CAB-100 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-100,Credit,1,0,USD,2023-01-01 09:00:00
+637,70556,CC-CAB-100 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-100,Debit,1,0,USD,2023-01-01 09:00:00
+638,70557,CC-CAB-105 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-105,Debit,1,0,USD,2023-01-01 09:00:00
+639,70558,CC-CAB-105 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-105,Credit,1,0,USD,2023-01-01 09:00:00
+640,70559,CC-CAB-105 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-105,Debit,1,0,USD,2023-01-01 09:00:00
+641,70560,CC-CAB-110 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-110,Debit,1,0,USD,2023-01-01 09:00:00
+642,70561,CC-CAB-110 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-110,Credit,1,0,USD,2023-01-01 09:00:00
+643,70562,CC-CAB-110 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-110,Debit,1,0,USD,2023-01-01 09:00:00
+644,70563,CC-CAB-115 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-115,Debit,1,0,USD,2023-01-01 09:00:00
+645,70564,CC-CAB-115 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-115,Credit,1,0,USD,2023-01-01 09:00:00
+646,70565,CC-CAB-115 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-115,Debit,1,0,USD,2023-01-01 09:00:00
+647,70566,CC-CAB-120 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-120,Debit,1,0,USD,2023-01-01 09:00:00
+648,70567,CC-CAB-120 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-120,Credit,1,0,USD,2023-01-01 09:00:00
+649,70568,CC-CAB-120 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-120,Debit,1,0,USD,2023-01-01 09:00:00
+650,70569,CC-CAB-125 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-125,Debit,1,0,USD,2023-01-01 09:00:00
+651,70570,CC-CAB-125 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-125,Credit,1,0,USD,2023-01-01 09:00:00
+652,70571,CC-CAB-125 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-125,Debit,1,0,USD,2023-01-01 09:00:00
+653,70572,CC-CAB-130 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-130,Debit,1,0,USD,2023-01-01 09:00:00
+654,70573,CC-CAB-130 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-130,Credit,1,0,USD,2023-01-01 09:00:00
+655,70574,CC-CAB-130 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-130,Debit,1,0,USD,2023-01-01 09:00:00
+656,70575,CC-CAB-135 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-135,Debit,1,0,USD,2023-01-01 09:00:00
+657,70576,CC-CAB-135 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-135,Credit,1,0,USD,2023-01-01 09:00:00
+658,70577,CC-CAB-135 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-135,Debit,1,0,USD,2023-01-01 09:00:00
+659,70578,CC-CAB-140 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-140,Debit,1,0,USD,2023-01-01 09:00:00
+660,70579,CC-CAB-140 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-140,Credit,1,0,USD,2023-01-01 09:00:00
+661,70580,CC-CAB-140 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-140,Debit,1,0,USD,2023-01-01 09:00:00
+662,70581,CC-CAB-145 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-145,Debit,1,0,USD,2023-01-01 09:00:00
+663,70582,CC-CAB-145 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-145,Credit,1,0,USD,2023-01-01 09:00:00
+664,70583,CC-CAB-145 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-145,Debit,1,0,USD,2023-01-01 09:00:00
+665,70584,CC-CAB-150 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-150,Debit,1,0,USD,2023-01-01 09:00:00
+666,70585,CC-CAB-150 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-150,Credit,1,0,USD,2023-01-01 09:00:00
+667,70586,CC-CAB-150 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-150,Debit,1,0,USD,2023-01-01 09:00:00
+668,70587,CC-CAB-155 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-155,Debit,1,0,USD,2023-01-01 09:00:00
+669,70588,CC-CAB-155 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-155,Credit,1,0,USD,2023-01-01 09:00:00
+670,70589,CC-CAB-155 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-155,Debit,1,0,USD,2023-01-01 09:00:00
+671,70590,CC-CAB-160 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-160,Debit,1,0,USD,2023-01-01 09:00:00
+672,70591,CC-CAB-160 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-160,Credit,1,0,USD,2023-01-01 09:00:00
+673,70592,CC-CAB-160 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-160,Debit,1,0,USD,2023-01-01 09:00:00
+674,70593,CC-CAB-165 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-165,Debit,1,0,USD,2023-01-01 09:00:00
+675,70594,CC-CAB-165 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-165,Credit,1,0,USD,2023-01-01 09:00:00
+676,70595,CC-CAB-165 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-165,Debit,1,0,USD,2023-01-01 09:00:00
+677,70596,CC-CAB-170 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-170,Debit,1,0,USD,2023-01-01 09:00:00
+678,70597,CC-CAB-170 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-170,Credit,1,0,USD,2023-01-01 09:00:00
+679,70598,CC-CAB-170 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-170,Debit,1,0,USD,2023-01-01 09:00:00
+680,70599,CC-CAB-175 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-175,Debit,1,0,USD,2023-01-01 09:00:00
+681,70600,CC-CAB-175 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-175,Credit,1,0,USD,2023-01-01 09:00:00
+682,70601,CC-CAB-175 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-175,Debit,1,0,USD,2023-01-01 09:00:00
+683,70602,CC-CAB-180 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-180,Debit,1,0,USD,2023-01-01 09:00:00
+684,70603,CC-CAB-180 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-180,Credit,1,0,USD,2023-01-01 09:00:00
+685,70604,CC-CAB-180 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-180,Debit,1,0,USD,2023-01-01 09:00:00
+686,70605,CC-CAB-185 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-185,Debit,1,0,USD,2023-01-01 09:00:00
+687,70606,CC-CAB-185 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-185,Credit,1,0,USD,2023-01-01 09:00:00
+688,70607,CC-CAB-185 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-185,Debit,1,0,USD,2023-01-01 09:00:00
+689,70608,CC-CAB-190 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-190,Debit,1,0,USD,2023-01-01 09:00:00
+690,70609,CC-CAB-190 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-190,Credit,1,0,USD,2023-01-01 09:00:00
+691,70610,CC-CAB-190 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-190,Debit,1,0,USD,2023-01-01 09:00:00
+692,70611,CC-CAB-195 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-CAB-195,Debit,1,0,USD,2023-01-01 09:00:00
+693,70612,CC-CAB-195 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-CAB-195,Credit,1,0,USD,2023-01-01 09:00:00
+694,70613,CC-CAB-195 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-CAB-195,Debit,1,0,USD,2023-01-01 09:00:00
+695,70614,CC-FIN-100 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-100,Debit,1,0,USD,2023-01-01 09:00:00
+696,70615,CC-FIN-100 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-100,Credit,1,0,USD,2023-01-01 09:00:00
+697,70616,CC-FIN-100 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-100,Debit,1,0,USD,2023-01-01 09:00:00
+698,70617,CC-FIN-105 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-105,Debit,1,0,USD,2023-01-01 09:00:00
+699,70618,CC-FIN-105 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-105,Credit,1,0,USD,2023-01-01 09:00:00
+700,70619,CC-FIN-105 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-105,Debit,1,0,USD,2023-01-01 09:00:00
+701,70620,CC-FIN-110 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-110,Debit,1,0,USD,2023-01-01 09:00:00
+702,70621,CC-FIN-110 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-110,Credit,1,0,USD,2023-01-01 09:00:00
+703,70622,CC-FIN-110 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-110,Debit,1,0,USD,2023-01-01 09:00:00
+704,70623,CC-FIN-115 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-115,Debit,1,0,USD,2023-01-01 09:00:00
+705,70624,CC-FIN-115 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-115,Credit,1,0,USD,2023-01-01 09:00:00
+706,70625,CC-FIN-115 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-115,Debit,1,0,USD,2023-01-01 09:00:00
+707,70626,CC-FIN-120 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-120,Debit,1,0,USD,2023-01-01 09:00:00
+708,70627,CC-FIN-120 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-120,Credit,1,0,USD,2023-01-01 09:00:00
+709,70628,CC-FIN-120 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-120,Debit,1,0,USD,2023-01-01 09:00:00
+710,70629,CC-FIN-125 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-125,Debit,1,0,USD,2023-01-01 09:00:00
+711,70630,CC-FIN-125 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-125,Credit,1,0,USD,2023-01-01 09:00:00
+712,70631,CC-FIN-125 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-125,Debit,1,0,USD,2023-01-01 09:00:00
+713,70632,CC-FIN-130 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-130,Debit,1,0,USD,2023-01-01 09:00:00
+714,70633,CC-FIN-130 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-130,Credit,1,0,USD,2023-01-01 09:00:00
+715,70634,CC-FIN-130 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-130,Debit,1,0,USD,2023-01-01 09:00:00
+716,70635,CC-FIN-135 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-135,Debit,1,0,USD,2023-01-01 09:00:00
+717,70636,CC-FIN-135 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-135,Credit,1,0,USD,2023-01-01 09:00:00
+718,70637,CC-FIN-135 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-135,Debit,1,0,USD,2023-01-01 09:00:00
+719,70638,CC-FIN-140 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-140,Debit,1,0,USD,2023-01-01 09:00:00
+720,70639,CC-FIN-140 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-140,Credit,1,0,USD,2023-01-01 09:00:00
+721,70640,CC-FIN-140 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-140,Debit,1,0,USD,2023-01-01 09:00:00
+722,70641,CC-FIN-145 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-145,Debit,1,0,USD,2023-01-01 09:00:00
+723,70642,CC-FIN-145 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-145,Credit,1,0,USD,2023-01-01 09:00:00
+724,70643,CC-FIN-145 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-145,Debit,1,0,USD,2023-01-01 09:00:00
+725,70644,CC-FIN-150 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-150,Debit,1,0,USD,2023-01-01 09:00:00
+726,70645,CC-FIN-150 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-150,Credit,1,0,USD,2023-01-01 09:00:00
+727,70646,CC-FIN-150 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-150,Debit,1,0,USD,2023-01-01 09:00:00
+728,70647,CC-FIN-155 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-155,Debit,1,0,USD,2023-01-01 09:00:00
+729,70648,CC-FIN-155 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-155,Credit,1,0,USD,2023-01-01 09:00:00
+730,70649,CC-FIN-155 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-155,Debit,1,0,USD,2023-01-01 09:00:00
+731,70650,CC-FIN-160 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-160,Debit,1,0,USD,2023-01-01 09:00:00
+732,70651,CC-FIN-160 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-160,Credit,1,0,USD,2023-01-01 09:00:00
+733,70652,CC-FIN-160 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-160,Debit,1,0,USD,2023-01-01 09:00:00
+734,70653,CC-FIN-165 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-165,Debit,1,0,USD,2023-01-01 09:00:00
+735,70654,CC-FIN-165 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-165,Credit,1,0,USD,2023-01-01 09:00:00
+736,70655,CC-FIN-165 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-165,Debit,1,0,USD,2023-01-01 09:00:00
+737,70656,CC-FIN-170 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-170,Debit,1,0,USD,2023-01-01 09:00:00
+738,70657,CC-FIN-170 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-170,Credit,1,0,USD,2023-01-01 09:00:00
+739,70658,CC-FIN-170 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-170,Debit,1,0,USD,2023-01-01 09:00:00
+740,70659,CC-FIN-175 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-175,Debit,1,0,USD,2023-01-01 09:00:00
+741,70660,CC-FIN-175 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-175,Credit,1,0,USD,2023-01-01 09:00:00
+742,70661,CC-FIN-175 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-175,Debit,1,0,USD,2023-01-01 09:00:00
+743,70662,CC-FIN-180 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-180,Debit,1,0,USD,2023-01-01 09:00:00
+744,70663,CC-FIN-180 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-180,Credit,1,0,USD,2023-01-01 09:00:00
+745,70664,CC-FIN-180 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-180,Debit,1,0,USD,2023-01-01 09:00:00
+746,70665,CC-FIN-185 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-185,Debit,1,0,USD,2023-01-01 09:00:00
+747,70666,CC-FIN-185 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-185,Credit,1,0,USD,2023-01-01 09:00:00
+748,70667,CC-FIN-185 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-185,Debit,1,0,USD,2023-01-01 09:00:00
+749,70668,CC-FIN-190 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-190,Debit,1,0,USD,2023-01-01 09:00:00
+750,70669,CC-FIN-190 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-190,Credit,1,0,USD,2023-01-01 09:00:00
+751,70670,CC-FIN-190 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-190,Debit,1,0,USD,2023-01-01 09:00:00
+752,70671,CC-FIN-195 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-FIN-195,Debit,1,0,USD,2023-01-01 09:00:00
+753,70672,CC-FIN-195 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-FIN-195,Credit,1,0,USD,2023-01-01 09:00:00
+754,70673,CC-FIN-195 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-FIN-195,Debit,1,0,USD,2023-01-01 09:00:00
+755,70674,CC-COR-100 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-100,Debit,1,0,USD,2023-01-01 09:00:00
+756,70675,CC-COR-100 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-100,Credit,1,0,USD,2023-01-01 09:00:00
+757,70676,CC-COR-100 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-100,Debit,1,0,USD,2023-01-01 09:00:00
+758,70677,CC-COR-105 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-105,Debit,1,0,USD,2023-01-01 09:00:00
+759,70678,CC-COR-105 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-105,Credit,1,0,USD,2023-01-01 09:00:00
+760,70679,CC-COR-105 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-105,Debit,1,0,USD,2023-01-01 09:00:00
+761,70680,CC-COR-110 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-110,Debit,1,0,USD,2023-01-01 09:00:00
+762,70681,CC-COR-110 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-110,Credit,1,0,USD,2023-01-01 09:00:00
+763,70682,CC-COR-110 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-110,Debit,1,0,USD,2023-01-01 09:00:00
+764,70683,CC-COR-115 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-115,Debit,1,0,USD,2023-01-01 09:00:00
+765,70684,CC-COR-115 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-115,Credit,1,0,USD,2023-01-01 09:00:00
+766,70685,CC-COR-115 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-115,Debit,1,0,USD,2023-01-01 09:00:00
+767,70686,CC-COR-120 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-120,Debit,1,0,USD,2023-01-01 09:00:00
+768,70687,CC-COR-120 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-120,Credit,1,0,USD,2023-01-01 09:00:00
+769,70688,CC-COR-120 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-120,Debit,1,0,USD,2023-01-01 09:00:00
+770,70689,CC-COR-125 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-125,Debit,1,0,USD,2023-01-01 09:00:00
+771,70690,CC-COR-125 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-125,Credit,1,0,USD,2023-01-01 09:00:00
+772,70691,CC-COR-125 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-125,Debit,1,0,USD,2023-01-01 09:00:00
+773,70692,CC-COR-130 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-130,Debit,1,0,USD,2023-01-01 09:00:00
+774,70693,CC-COR-130 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-130,Credit,1,0,USD,2023-01-01 09:00:00
+775,70694,CC-COR-130 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-130,Debit,1,0,USD,2023-01-01 09:00:00
+776,70695,CC-COR-135 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-135,Debit,1,0,USD,2023-01-01 09:00:00
+777,70696,CC-COR-135 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-135,Credit,1,0,USD,2023-01-01 09:00:00
+778,70697,CC-COR-135 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-135,Debit,1,0,USD,2023-01-01 09:00:00
+779,70698,CC-COR-140 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-140,Debit,1,0,USD,2023-01-01 09:00:00
+780,70699,CC-COR-140 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-140,Credit,1,0,USD,2023-01-01 09:00:00
+781,70700,CC-COR-140 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-140,Debit,1,0,USD,2023-01-01 09:00:00
+782,70701,CC-COR-145 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-145,Debit,1,0,USD,2023-01-01 09:00:00
+783,70702,CC-COR-145 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-145,Credit,1,0,USD,2023-01-01 09:00:00
+784,70703,CC-COR-145 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-145,Debit,1,0,USD,2023-01-01 09:00:00
+785,70704,CC-COR-150 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-150,Debit,1,0,USD,2023-01-01 09:00:00
+786,70705,CC-COR-150 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-150,Credit,1,0,USD,2023-01-01 09:00:00
+787,70706,CC-COR-150 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-150,Debit,1,0,USD,2023-01-01 09:00:00
+788,70707,CC-COR-155 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-155,Debit,1,0,USD,2023-01-01 09:00:00
+789,70708,CC-COR-155 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-155,Credit,1,0,USD,2023-01-01 09:00:00
+790,70709,CC-COR-155 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-155,Debit,1,0,USD,2023-01-01 09:00:00
+791,70710,CC-COR-160 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-160,Debit,1,0,USD,2023-01-01 09:00:00
+792,70711,CC-COR-160 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-160,Credit,1,0,USD,2023-01-01 09:00:00
+793,70712,CC-COR-160 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-160,Debit,1,0,USD,2023-01-01 09:00:00
+794,70713,CC-COR-165 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-165,Debit,1,0,USD,2023-01-01 09:00:00
+795,70714,CC-COR-165 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-165,Credit,1,0,USD,2023-01-01 09:00:00
+796,70715,CC-COR-165 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-165,Debit,1,0,USD,2023-01-01 09:00:00
+797,70716,CC-COR-170 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-170,Debit,1,0,USD,2023-01-01 09:00:00
+798,70717,CC-COR-170 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-170,Credit,1,0,USD,2023-01-01 09:00:00
+799,70718,CC-COR-170 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-170,Debit,1,0,USD,2023-01-01 09:00:00
+800,70719,CC-COR-175 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-175,Debit,1,0,USD,2023-01-01 09:00:00
+801,70720,CC-COR-175 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-175,Credit,1,0,USD,2023-01-01 09:00:00
+802,70721,CC-COR-175 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-175,Debit,1,0,USD,2023-01-01 09:00:00
+803,70722,CC-COR-180 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-180,Debit,1,0,USD,2023-01-01 09:00:00
+804,70723,CC-COR-180 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-180,Credit,1,0,USD,2023-01-01 09:00:00
+805,70724,CC-COR-180 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-180,Debit,1,0,USD,2023-01-01 09:00:00
+806,70725,CC-COR-185 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-185,Debit,1,0,USD,2023-01-01 09:00:00
+807,70726,CC-COR-185 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-185,Credit,1,0,USD,2023-01-01 09:00:00
+808,70727,CC-COR-185 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-185,Debit,1,0,USD,2023-01-01 09:00:00
+809,70728,CC-COR-190 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-190,Debit,1,0,USD,2023-01-01 09:00:00
+810,70729,CC-COR-190 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-190,Credit,1,0,USD,2023-01-01 09:00:00
+811,70730,CC-COR-190 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-190,Debit,1,0,USD,2023-01-01 09:00:00
+812,70731,CC-COR-195 Direct Expense,Expense,Expense,5950,Detailed direct operating expense for CC-COR-195,Debit,1,0,USD,2023-01-01 09:00:00
+813,70732,CC-COR-195 Accrued Expense Clearing,Liability,Liability,2200,Accrued expense clearing account for CC-COR-195,Credit,1,0,USD,2023-01-01 09:00:00
+814,70733,CC-COR-195 Budget Variance Clearing,Other,Other,6000,Budget variance tracking for CC-COR-195,Debit,1,0,USD,2023-01-01 09:00:00
+815,70734,Station Payroll Expense - ATL,Expense,Expense,5210,Detailed station payroll expense for station ATL,Debit,1,0,USD,2023-01-01 09:00:00
+816,70735,Station Insurance Expense - ATL,Expense,Expense,5800,Detailed station insurance expense for station ATL,Debit,1,0,USD,2023-01-01 09:00:00
+817,70736,Station Sales Expense - ATL,Expense,Expense,5600,Detailed station sales expense for station ATL,Debit,1,0,USD,2023-01-01 09:00:00
+818,70737,Station Lease Expense - ATL,Expense,Expense,5500,Detailed station lease expense for station ATL,Debit,1,0,USD,2023-01-01 09:00:00
+819,70738,Station Other Revenue - ATL,Revenue,Revenue,4600,Detailed station other revenue for station ATL,Credit,1,0,USD,2023-01-01 09:00:00
+820,70739,Station Payroll Expense - AUS,Expense,Expense,5210,Detailed station payroll expense for station AUS,Debit,1,0,USD,2023-01-01 09:00:00
+821,70740,Station Insurance Expense - AUS,Expense,Expense,5800,Detailed station insurance expense for station AUS,Debit,1,0,USD,2023-01-01 09:00:00
+822,70741,Station Sales Expense - AUS,Expense,Expense,5600,Detailed station sales expense for station AUS,Debit,1,0,USD,2023-01-01 09:00:00
+823,70742,Station Lease Expense - AUS,Expense,Expense,5500,Detailed station lease expense for station AUS,Debit,1,0,USD,2023-01-01 09:00:00
+824,70743,Station Other Revenue - AUS,Revenue,Revenue,4600,Detailed station other revenue for station AUS,Credit,1,0,USD,2023-01-01 09:00:00
+825,70744,Station Payroll Expense - BOS,Expense,Expense,5210,Detailed station payroll expense for station BOS,Debit,1,0,USD,2023-01-01 09:00:00
+826,70745,Station Insurance Expense - BOS,Expense,Expense,5800,Detailed station insurance expense for station BOS,Debit,1,0,USD,2023-01-01 09:00:00
+827,70746,Station Sales Expense - BOS,Expense,Expense,5600,Detailed station sales expense for station BOS,Debit,1,0,USD,2023-01-01 09:00:00
+828,70747,Station Lease Expense - BOS,Expense,Expense,5500,Detailed station lease expense for station BOS,Debit,1,0,USD,2023-01-01 09:00:00
+829,70748,Station Other Revenue - BOS,Revenue,Revenue,4600,Detailed station other revenue for station BOS,Credit,1,0,USD,2023-01-01 09:00:00
+830,70749,Station Payroll Expense - CLT,Expense,Expense,5210,Detailed station payroll expense for station CLT,Debit,1,0,USD,2023-01-01 09:00:00
+831,70750,Station Insurance Expense - CLT,Expense,Expense,5800,Detailed station insurance expense for station CLT,Debit,1,0,USD,2023-01-01 09:00:00
+832,70751,Station Sales Expense - CLT,Expense,Expense,5600,Detailed station sales expense for station CLT,Debit,1,0,USD,2023-01-01 09:00:00
+833,70752,Station Lease Expense - CLT,Expense,Expense,5500,Detailed station lease expense for station CLT,Debit,1,0,USD,2023-01-01 09:00:00
+834,70753,Station Other Revenue - CLT,Revenue,Revenue,4600,Detailed station other revenue for station CLT,Credit,1,0,USD,2023-01-01 09:00:00
+835,70754,Station Payroll Expense - CUN,Expense,Expense,5210,Detailed station payroll expense for station CUN,Debit,1,0,USD,2023-01-01 09:00:00
+836,70755,Station Insurance Expense - CUN,Expense,Expense,5800,Detailed station insurance expense for station CUN,Debit,1,0,USD,2023-01-01 09:00:00
+837,70756,Station Sales Expense - CUN,Expense,Expense,5600,Detailed station sales expense for station CUN,Debit,1,0,USD,2023-01-01 09:00:00
+838,70757,Station Lease Expense - CUN,Expense,Expense,5500,Detailed station lease expense for station CUN,Debit,1,0,USD,2023-01-01 09:00:00
+839,70758,Station Other Revenue - CUN,Revenue,Revenue,4600,Detailed station other revenue for station CUN,Credit,1,0,USD,2023-01-01 09:00:00
+840,70759,Station Payroll Expense - DEN,Expense,Expense,5210,Detailed station payroll expense for station DEN,Debit,1,0,USD,2023-01-01 09:00:00
+841,70760,Station Insurance Expense - DEN,Expense,Expense,5800,Detailed station insurance expense for station DEN,Debit,1,0,USD,2023-01-01 09:00:00
+842,70761,Station Sales Expense - DEN,Expense,Expense,5600,Detailed station sales expense for station DEN,Debit,1,0,USD,2023-01-01 09:00:00
+843,70762,Station Lease Expense - DEN,Expense,Expense,5500,Detailed station lease expense for station DEN,Debit,1,0,USD,2023-01-01 09:00:00
+844,70763,Station Other Revenue - DEN,Revenue,Revenue,4600,Detailed station other revenue for station DEN,Credit,1,0,USD,2023-01-01 09:00:00
+845,70764,Station Payroll Expense - DFW,Expense,Expense,5210,Detailed station payroll expense for station DFW,Debit,1,0,USD,2023-01-01 09:00:00
+846,70765,Station Insurance Expense - DFW,Expense,Expense,5800,Detailed station insurance expense for station DFW,Debit,1,0,USD,2023-01-01 09:00:00
+847,70766,Station Sales Expense - DFW,Expense,Expense,5600,Detailed station sales expense for station DFW,Debit,1,0,USD,2023-01-01 09:00:00
+848,70767,Station Lease Expense - DFW,Expense,Expense,5500,Detailed station lease expense for station DFW,Debit,1,0,USD,2023-01-01 09:00:00
+849,70768,Station Other Revenue - DFW,Revenue,Revenue,4600,Detailed station other revenue for station DFW,Credit,1,0,USD,2023-01-01 09:00:00
+850,70769,Station Payroll Expense - IAD,Expense,Expense,5210,Detailed station payroll expense for station IAD,Debit,1,0,USD,2023-01-01 09:00:00
+851,70770,Station Insurance Expense - IAD,Expense,Expense,5800,Detailed station insurance expense for station IAD,Debit,1,0,USD,2023-01-01 09:00:00
+852,70771,Station Sales Expense - IAD,Expense,Expense,5600,Detailed station sales expense for station IAD,Debit,1,0,USD,2023-01-01 09:00:00
+853,70772,Station Lease Expense - IAD,Expense,Expense,5500,Detailed station lease expense for station IAD,Debit,1,0,USD,2023-01-01 09:00:00
+854,70773,Station Other Revenue - IAD,Revenue,Revenue,4600,Detailed station other revenue for station IAD,Credit,1,0,USD,2023-01-01 09:00:00
+855,70774,Station Payroll Expense - IAH,Expense,Expense,5210,Detailed station payroll expense for station IAH,Debit,1,0,USD,2023-01-01 09:00:00
+856,70775,Station Insurance Expense - IAH,Expense,Expense,5800,Detailed station insurance expense for station IAH,Debit,1,0,USD,2023-01-01 09:00:00
+857,70776,Station Sales Expense - IAH,Expense,Expense,5600,Detailed station sales expense for station IAH,Debit,1,0,USD,2023-01-01 09:00:00
+858,70777,Station Lease Expense - IAH,Expense,Expense,5500,Detailed station lease expense for station IAH,Debit,1,0,USD,2023-01-01 09:00:00
+859,70778,Station Other Revenue - IAH,Revenue,Revenue,4600,Detailed station other revenue for station IAH,Credit,1,0,USD,2023-01-01 09:00:00
+860,70779,Station Payroll Expense - JFK,Expense,Expense,5210,Detailed station payroll expense for station JFK,Debit,1,0,USD,2023-01-01 09:00:00
+861,70780,Station Insurance Expense - JFK,Expense,Expense,5800,Detailed station insurance expense for station JFK,Debit,1,0,USD,2023-01-01 09:00:00
+862,70781,Station Sales Expense - JFK,Expense,Expense,5600,Detailed station sales expense for station JFK,Debit,1,0,USD,2023-01-01 09:00:00
+863,70782,Station Lease Expense - JFK,Expense,Expense,5500,Detailed station lease expense for station JFK,Debit,1,0,USD,2023-01-01 09:00:00
+864,70783,Station Other Revenue - JFK,Revenue,Revenue,4600,Detailed station other revenue for station JFK,Credit,1,0,USD,2023-01-01 09:00:00
+865,70784,Station Payroll Expense - LAS,Expense,Expense,5210,Detailed station payroll expense for station LAS,Debit,1,0,USD,2023-01-01 09:00:00
+866,70785,Station Insurance Expense - LAS,Expense,Expense,5800,Detailed station insurance expense for station LAS,Debit,1,0,USD,2023-01-01 09:00:00
+867,70786,Station Sales Expense - LAS,Expense,Expense,5600,Detailed station sales expense for station LAS,Debit,1,0,USD,2023-01-01 09:00:00
+868,70787,Station Lease Expense - LAS,Expense,Expense,5500,Detailed station lease expense for station LAS,Debit,1,0,USD,2023-01-01 09:00:00
+869,70788,Station Other Revenue - LAS,Revenue,Revenue,4600,Detailed station other revenue for station LAS,Credit,1,0,USD,2023-01-01 09:00:00
+870,70789,Station Payroll Expense - LAX,Expense,Expense,5210,Detailed station payroll expense for station LAX,Debit,1,0,USD,2023-01-01 09:00:00
+871,70790,Station Insurance Expense - LAX,Expense,Expense,5800,Detailed station insurance expense for station LAX,Debit,1,0,USD,2023-01-01 09:00:00
+872,70791,Station Sales Expense - LAX,Expense,Expense,5600,Detailed station sales expense for station LAX,Debit,1,0,USD,2023-01-01 09:00:00
+873,70792,Station Lease Expense - LAX,Expense,Expense,5500,Detailed station lease expense for station LAX,Debit,1,0,USD,2023-01-01 09:00:00
+874,70793,Station Other Revenue - LAX,Revenue,Revenue,4600,Detailed station other revenue for station LAX,Credit,1,0,USD,2023-01-01 09:00:00
+875,70794,Station Payroll Expense - LGA,Expense,Expense,5210,Detailed station payroll expense for station LGA,Debit,1,0,USD,2023-01-01 09:00:00
+876,70795,Station Insurance Expense - LGA,Expense,Expense,5800,Detailed station insurance expense for station LGA,Debit,1,0,USD,2023-01-01 09:00:00
+877,70796,Station Sales Expense - LGA,Expense,Expense,5600,Detailed station sales expense for station LGA,Debit,1,0,USD,2023-01-01 09:00:00
+878,70797,Station Lease Expense - LGA,Expense,Expense,5500,Detailed station lease expense for station LGA,Debit,1,0,USD,2023-01-01 09:00:00
+879,70798,Station Other Revenue - LGA,Revenue,Revenue,4600,Detailed station other revenue for station LGA,Credit,1,0,USD,2023-01-01 09:00:00
+880,70799,Station Payroll Expense - LHR,Expense,Expense,5210,Detailed station payroll expense for station LHR,Debit,1,0,USD,2023-01-01 09:00:00
+881,70800,Station Insurance Expense - LHR,Expense,Expense,5800,Detailed station insurance expense for station LHR,Debit,1,0,USD,2023-01-01 09:00:00
+882,70801,Station Sales Expense - LHR,Expense,Expense,5600,Detailed station sales expense for station LHR,Debit,1,0,USD,2023-01-01 09:00:00
+883,70802,Station Lease Expense - LHR,Expense,Expense,5500,Detailed station lease expense for station LHR,Debit,1,0,USD,2023-01-01 09:00:00
+884,70803,Station Other Revenue - LHR,Revenue,Revenue,4600,Detailed station other revenue for station LHR,Credit,1,0,USD,2023-01-01 09:00:00
+885,70804,Station Payroll Expense - MCO,Expense,Expense,5210,Detailed station payroll expense for station MCO,Debit,1,0,USD,2023-01-01 09:00:00
+886,70805,Station Insurance Expense - MCO,Expense,Expense,5800,Detailed station insurance expense for station MCO,Debit,1,0,USD,2023-01-01 09:00:00
+887,70806,Station Sales Expense - MCO,Expense,Expense,5600,Detailed station sales expense for station MCO,Debit,1,0,USD,2023-01-01 09:00:00
+888,70807,Station Lease Expense - MCO,Expense,Expense,5500,Detailed station lease expense for station MCO,Debit,1,0,USD,2023-01-01 09:00:00
+889,70808,Station Other Revenue - MCO,Revenue,Revenue,4600,Detailed station other revenue for station MCO,Credit,1,0,USD,2023-01-01 09:00:00
+890,70809,Station Payroll Expense - MIA,Expense,Expense,5210,Detailed station payroll expense for station MIA,Debit,1,0,USD,2023-01-01 09:00:00
+891,70810,Station Insurance Expense - MIA,Expense,Expense,5800,Detailed station insurance expense for station MIA,Debit,1,0,USD,2023-01-01 09:00:00
+892,70811,Station Sales Expense - MIA,Expense,Expense,5600,Detailed station sales expense for station MIA,Debit,1,0,USD,2023-01-01 09:00:00
+893,70812,Station Lease Expense - MIA,Expense,Expense,5500,Detailed station lease expense for station MIA,Debit,1,0,USD,2023-01-01 09:00:00
+894,70813,Station Other Revenue - MIA,Revenue,Revenue,4600,Detailed station other revenue for station MIA,Credit,1,0,USD,2023-01-01 09:00:00
+895,70814,Station Payroll Expense - MSP,Expense,Expense,5210,Detailed station payroll expense for station MSP,Debit,1,0,USD,2023-01-01 09:00:00
+896,70815,Station Insurance Expense - MSP,Expense,Expense,5800,Detailed station insurance expense for station MSP,Debit,1,0,USD,2023-01-01 09:00:00
+897,70816,Station Sales Expense - MSP,Expense,Expense,5600,Detailed station sales expense for station MSP,Debit,1,0,USD,2023-01-01 09:00:00
+898,70817,Station Lease Expense - MSP,Expense,Expense,5500,Detailed station lease expense for station MSP,Debit,1,0,USD,2023-01-01 09:00:00
+899,70818,Station Other Revenue - MSP,Revenue,Revenue,4600,Detailed station other revenue for station MSP,Credit,1,0,USD,2023-01-01 09:00:00
+900,70819,Station Payroll Expense - NRT,Expense,Expense,5210,Detailed station payroll expense for station NRT,Debit,1,0,USD,2023-01-01 09:00:00
+901,70820,Station Insurance Expense - NRT,Expense,Expense,5800,Detailed station insurance expense for station NRT,Debit,1,0,USD,2023-01-01 09:00:00
+902,70821,Station Sales Expense - NRT,Expense,Expense,5600,Detailed station sales expense for station NRT,Debit,1,0,USD,2023-01-01 09:00:00
+903,70822,Station Lease Expense - NRT,Expense,Expense,5500,Detailed station lease expense for station NRT,Debit,1,0,USD,2023-01-01 09:00:00
+904,70823,Station Other Revenue - NRT,Revenue,Revenue,4600,Detailed station other revenue for station NRT,Credit,1,0,USD,2023-01-01 09:00:00
+905,70824,Station Payroll Expense - ORD,Expense,Expense,5210,Detailed station payroll expense for station ORD,Debit,1,0,USD,2023-01-01 09:00:00
+906,70825,Station Insurance Expense - ORD,Expense,Expense,5800,Detailed station insurance expense for station ORD,Debit,1,0,USD,2023-01-01 09:00:00
+907,70826,Station Sales Expense - ORD,Expense,Expense,5600,Detailed station sales expense for station ORD,Debit,1,0,USD,2023-01-01 09:00:00
+908,70827,Station Lease Expense - ORD,Expense,Expense,5500,Detailed station lease expense for station ORD,Debit,1,0,USD,2023-01-01 09:00:00
+909,70828,Station Other Revenue - ORD,Revenue,Revenue,4600,Detailed station other revenue for station ORD,Credit,1,0,USD,2023-01-01 09:00:00
+910,70829,Station Payroll Expense - PDX,Expense,Expense,5210,Detailed station payroll expense for station PDX,Debit,1,0,USD,2023-01-01 09:00:00
+911,70830,Station Insurance Expense - PDX,Expense,Expense,5800,Detailed station insurance expense for station PDX,Debit,1,0,USD,2023-01-01 09:00:00
+912,70831,Station Sales Expense - PDX,Expense,Expense,5600,Detailed station sales expense for station PDX,Debit,1,0,USD,2023-01-01 09:00:00
+913,70832,Station Lease Expense - PDX,Expense,Expense,5500,Detailed station lease expense for station PDX,Debit,1,0,USD,2023-01-01 09:00:00
+914,70833,Station Other Revenue - PDX,Revenue,Revenue,4600,Detailed station other revenue for station PDX,Credit,1,0,USD,2023-01-01 09:00:00
+915,70834,Station Payroll Expense - PHX,Expense,Expense,5210,Detailed station payroll expense for station PHX,Debit,1,0,USD,2023-01-01 09:00:00
+916,70835,Station Insurance Expense - PHX,Expense,Expense,5800,Detailed station insurance expense for station PHX,Debit,1,0,USD,2023-01-01 09:00:00
+917,70836,Station Sales Expense - PHX,Expense,Expense,5600,Detailed station sales expense for station PHX,Debit,1,0,USD,2023-01-01 09:00:00
+918,70837,Station Lease Expense - PHX,Expense,Expense,5500,Detailed station lease expense for station PHX,Debit,1,0,USD,2023-01-01 09:00:00
+919,70838,Station Other Revenue - PHX,Revenue,Revenue,4600,Detailed station other revenue for station PHX,Credit,1,0,USD,2023-01-01 09:00:00
+920,70839,Station Payroll Expense - SAN,Expense,Expense,5210,Detailed station payroll expense for station SAN,Debit,1,0,USD,2023-01-01 09:00:00
+921,70840,Station Insurance Expense - SAN,Expense,Expense,5800,Detailed station insurance expense for station SAN,Debit,1,0,USD,2023-01-01 09:00:00
+922,70841,Station Sales Expense - SAN,Expense,Expense,5600,Detailed station sales expense for station SAN,Debit,1,0,USD,2023-01-01 09:00:00
+923,70842,Station Lease Expense - SAN,Expense,Expense,5500,Detailed station lease expense for station SAN,Debit,1,0,USD,2023-01-01 09:00:00
+924,70843,Station Other Revenue - SAN,Revenue,Revenue,4600,Detailed station other revenue for station SAN,Credit,1,0,USD,2023-01-01 09:00:00
+925,70844,Station Payroll Expense - SEA,Expense,Expense,5210,Detailed station payroll expense for station SEA,Debit,1,0,USD,2023-01-01 09:00:00
+926,70845,Station Insurance Expense - SEA,Expense,Expense,5800,Detailed station insurance expense for station SEA,Debit,1,0,USD,2023-01-01 09:00:00
+927,70846,Station Sales Expense - SEA,Expense,Expense,5600,Detailed station sales expense for station SEA,Debit,1,0,USD,2023-01-01 09:00:00
+928,70847,Station Lease Expense - SEA,Expense,Expense,5500,Detailed station lease expense for station SEA,Debit,1,0,USD,2023-01-01 09:00:00
+929,70848,Station Other Revenue - SEA,Revenue,Revenue,4600,Detailed station other revenue for station SEA,Credit,1,0,USD,2023-01-01 09:00:00
+930,70849,Station Payroll Expense - SFO,Expense,Expense,5210,Detailed station payroll expense for station SFO,Debit,1,0,USD,2023-01-01 09:00:00
+931,70850,Station Insurance Expense - SFO,Expense,Expense,5800,Detailed station insurance expense for station SFO,Debit,1,0,USD,2023-01-01 09:00:00
+932,70851,Station Sales Expense - SFO,Expense,Expense,5600,Detailed station sales expense for station SFO,Debit,1,0,USD,2023-01-01 09:00:00
+933,70852,Station Lease Expense - SFO,Expense,Expense,5500,Detailed station lease expense for station SFO,Debit,1,0,USD,2023-01-01 09:00:00
+934,70853,Station Other Revenue - SFO,Revenue,Revenue,4600,Detailed station other revenue for station SFO,Credit,1,0,USD,2023-01-01 09:00:00
+935,70854,A220 Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+936,70855,A220 Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+937,70856,A220 Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+938,70857,A220 Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for A220,Debit,1,0,USD,2023-01-01 09:00:00
+939,70858,A321neo Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+940,70859,A321neo Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+941,70860,A321neo Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+942,70861,A321neo Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for A321neo,Debit,1,0,USD,2023-01-01 09:00:00
+943,70862,A330 Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+944,70863,A330 Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+945,70864,A330 Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+946,70865,A330 Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for A330,Debit,1,0,USD,2023-01-01 09:00:00
+947,70866,B737-800 Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+948,70867,B737-800 Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+949,70868,B737-800 Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+950,70869,B737-800 Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for B737-800,Debit,1,0,USD,2023-01-01 09:00:00
+951,70870,B737 MAX 8 Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+952,70871,B737 MAX 8 Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+953,70872,B737 MAX 8 Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+954,70873,B737 MAX 8 Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for B737 MAX 8,Debit,1,0,USD,2023-01-01 09:00:00
+955,70874,B787-9 Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+956,70875,B787-9 Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+957,70876,B787-9 Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+958,70877,B787-9 Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for B787-9,Debit,1,0,USD,2023-01-01 09:00:00
+959,70878,E175 Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+960,70879,E175 Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+961,70880,E175 Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+962,70881,E175 Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for E175,Debit,1,0,USD,2023-01-01 09:00:00
+963,70882,E190 Distribution Expense,Expense,Expense,5600,Fleet-specific distribution expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+964,70883,E190 Catering Expense,Expense,Expense,5700,Fleet-specific catering expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+965,70884,E190 Insurance Expense,Expense,Expense,5800,Fleet-specific insurance expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+966,70885,E190 Other Operating Expense,Expense,Expense,5950,Fleet-specific other operating expense for E190,Debit,1,0,USD,2023-01-01 09:00:00
+967,70886,Route Loyalty Revenue - ATL-LAX,Revenue,Revenue,4500,Detailed route loyalty revenue for route ATL-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+968,70887,Route Contract Revenue - ATL-LAX,Revenue,Revenue,4200,Detailed route contract revenue for route ATL-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+969,70888,Route Loyalty Revenue - LAX-JFK,Revenue,Revenue,4500,Detailed route loyalty revenue for route LAX-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+970,70889,Route Contract Revenue - LAX-JFK,Revenue,Revenue,4200,Detailed route contract revenue for route LAX-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+971,70890,Route Loyalty Revenue - ORD-MIA,Revenue,Revenue,4500,Detailed route loyalty revenue for route ORD-MIA,Credit,1,0,USD,2023-01-01 09:00:00
+972,70891,Route Contract Revenue - ORD-MIA,Revenue,Revenue,4200,Detailed route contract revenue for route ORD-MIA,Credit,1,0,USD,2023-01-01 09:00:00
+973,70892,Route Loyalty Revenue - DFW-SFO,Revenue,Revenue,4500,Detailed route loyalty revenue for route DFW-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+974,70893,Route Contract Revenue - DFW-SFO,Revenue,Revenue,4200,Detailed route contract revenue for route DFW-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+975,70894,Route Loyalty Revenue - SEA-DEN,Revenue,Revenue,4500,Detailed route loyalty revenue for route SEA-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+976,70895,Route Contract Revenue - SEA-DEN,Revenue,Revenue,4200,Detailed route contract revenue for route SEA-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+977,70896,Route Loyalty Revenue - BOS-ATL,Revenue,Revenue,4500,Detailed route loyalty revenue for route BOS-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+978,70897,Route Contract Revenue - BOS-ATL,Revenue,Revenue,4200,Detailed route contract revenue for route BOS-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+979,70898,Route Loyalty Revenue - MCO-LGA,Revenue,Revenue,4500,Detailed route loyalty revenue for route MCO-LGA,Credit,1,0,USD,2023-01-01 09:00:00
+980,70899,Route Contract Revenue - MCO-LGA,Revenue,Revenue,4200,Detailed route contract revenue for route MCO-LGA,Credit,1,0,USD,2023-01-01 09:00:00
+981,70900,Route Loyalty Revenue - PHX-ORD,Revenue,Revenue,4500,Detailed route loyalty revenue for route PHX-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+982,70901,Route Contract Revenue - PHX-ORD,Revenue,Revenue,4200,Detailed route contract revenue for route PHX-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+983,70902,Route Loyalty Revenue - IAH-LAX,Revenue,Revenue,4500,Detailed route loyalty revenue for route IAH-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+984,70903,Route Contract Revenue - IAH-LAX,Revenue,Revenue,4200,Detailed route contract revenue for route IAH-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+985,70904,Route Loyalty Revenue - JFK-SFO,Revenue,Revenue,4500,Detailed route loyalty revenue for route JFK-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+986,70905,Route Contract Revenue - JFK-SFO,Revenue,Revenue,4200,Detailed route contract revenue for route JFK-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+987,70906,Route Loyalty Revenue - LAS-SEA,Revenue,Revenue,4500,Detailed route loyalty revenue for route LAS-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+988,70907,Route Contract Revenue - LAS-SEA,Revenue,Revenue,4200,Detailed route contract revenue for route LAS-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+989,70908,Route Loyalty Revenue - DEN-ATL,Revenue,Revenue,4500,Detailed route loyalty revenue for route DEN-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+990,70909,Route Contract Revenue - DEN-ATL,Revenue,Revenue,4200,Detailed route contract revenue for route DEN-ATL,Credit,1,0,USD,2023-01-01 09:00:00
+991,70910,Route Loyalty Revenue - SFO-SEA,Revenue,Revenue,4500,Detailed route loyalty revenue for route SFO-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+992,70911,Route Contract Revenue - SFO-SEA,Revenue,Revenue,4200,Detailed route contract revenue for route SFO-SEA,Credit,1,0,USD,2023-01-01 09:00:00
+993,70912,Route Loyalty Revenue - MIA-DFW,Revenue,Revenue,4500,Detailed route loyalty revenue for route MIA-DFW,Credit,1,0,USD,2023-01-01 09:00:00
+994,70913,Route Contract Revenue - MIA-DFW,Revenue,Revenue,4200,Detailed route contract revenue for route MIA-DFW,Credit,1,0,USD,2023-01-01 09:00:00
+995,70914,Route Loyalty Revenue - MSP-BOS,Revenue,Revenue,4500,Detailed route loyalty revenue for route MSP-BOS,Credit,1,0,USD,2023-01-01 09:00:00
+996,70915,Route Contract Revenue - MSP-BOS,Revenue,Revenue,4200,Detailed route contract revenue for route MSP-BOS,Credit,1,0,USD,2023-01-01 09:00:00
+997,70916,Route Loyalty Revenue - PDX-LAS,Revenue,Revenue,4500,Detailed route loyalty revenue for route PDX-LAS,Credit,1,0,USD,2023-01-01 09:00:00
+998,70917,Route Contract Revenue - PDX-LAS,Revenue,Revenue,4200,Detailed route contract revenue for route PDX-LAS,Credit,1,0,USD,2023-01-01 09:00:00
+999,70918,Route Loyalty Revenue - SAN-ORD,Revenue,Revenue,4500,Detailed route loyalty revenue for route SAN-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+1000,70919,Route Contract Revenue - SAN-ORD,Revenue,Revenue,4200,Detailed route contract revenue for route SAN-ORD,Credit,1,0,USD,2023-01-01 09:00:00
+1001,70920,Route Loyalty Revenue - CLT-MCO,Revenue,Revenue,4500,Detailed route loyalty revenue for route CLT-MCO,Credit,1,0,USD,2023-01-01 09:00:00
+1002,70921,Route Contract Revenue - CLT-MCO,Revenue,Revenue,4200,Detailed route contract revenue for route CLT-MCO,Credit,1,0,USD,2023-01-01 09:00:00
+1003,70922,Route Loyalty Revenue - IAD-DEN,Revenue,Revenue,4500,Detailed route loyalty revenue for route IAD-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+1004,70923,Route Contract Revenue - IAD-DEN,Revenue,Revenue,4200,Detailed route contract revenue for route IAD-DEN,Credit,1,0,USD,2023-01-01 09:00:00
+1005,70924,Route Loyalty Revenue - AUS-LAX,Revenue,Revenue,4500,Detailed route loyalty revenue for route AUS-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+1006,70925,Route Contract Revenue - AUS-LAX,Revenue,Revenue,4200,Detailed route contract revenue for route AUS-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+1007,70926,Route Loyalty Revenue - NRT-LAX,Revenue,Revenue,4500,Detailed route loyalty revenue for route NRT-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+1008,70927,Route Contract Revenue - NRT-LAX,Revenue,Revenue,4200,Detailed route contract revenue for route NRT-LAX,Credit,1,0,USD,2023-01-01 09:00:00
+1009,70928,Route Loyalty Revenue - LHR-JFK,Revenue,Revenue,4500,Detailed route loyalty revenue for route LHR-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+1010,70929,Route Contract Revenue - LHR-JFK,Revenue,Revenue,4200,Detailed route contract revenue for route LHR-JFK,Credit,1,0,USD,2023-01-01 09:00:00
+1011,70930,Route Loyalty Revenue - SFO-NRT,Revenue,Revenue,4500,Detailed route loyalty revenue for route SFO-NRT,Credit,1,0,USD,2023-01-01 09:00:00
+1012,70931,Route Contract Revenue - SFO-NRT,Revenue,Revenue,4200,Detailed route contract revenue for route SFO-NRT,Credit,1,0,USD,2023-01-01 09:00:00
+1013,70932,Route Loyalty Revenue - JFK-LHR,Revenue,Revenue,4500,Detailed route loyalty revenue for route JFK-LHR,Credit,1,0,USD,2023-01-01 09:00:00
+1014,70933,Route Contract Revenue - JFK-LHR,Revenue,Revenue,4200,Detailed route contract revenue for route JFK-LHR,Credit,1,0,USD,2023-01-01 09:00:00
+1015,70934,Route Loyalty Revenue - DFW-CUN,Revenue,Revenue,4500,Detailed route loyalty revenue for route DFW-CUN,Credit,1,0,USD,2023-01-01 09:00:00
+1016,70935,Route Contract Revenue - DFW-CUN,Revenue,Revenue,4200,Detailed route contract revenue for route DFW-CUN,Credit,1,0,USD,2023-01-01 09:00:00
+1017,70936,Route Loyalty Revenue - ORD-SFO,Revenue,Revenue,4500,Detailed route loyalty revenue for route ORD-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+1018,70937,Route Contract Revenue - ORD-SFO,Revenue,Revenue,4200,Detailed route contract revenue for route ORD-SFO,Credit,1,0,USD,2023-01-01 09:00:00
+1019,70938,CC-FLT-100 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-100,Debit,1,0,USD,2023-01-01 09:00:00
+1020,70939,CC-FLT-105 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-105,Debit,1,0,USD,2023-01-01 09:00:00
+1021,70940,CC-FLT-110 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-110,Debit,1,0,USD,2023-01-01 09:00:00
+1022,70941,CC-FLT-115 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-115,Debit,1,0,USD,2023-01-01 09:00:00
+1023,70942,CC-FLT-120 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-120,Debit,1,0,USD,2023-01-01 09:00:00
+1024,70943,CC-FLT-125 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-125,Debit,1,0,USD,2023-01-01 09:00:00
+1025,70944,CC-FLT-130 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-130,Debit,1,0,USD,2023-01-01 09:00:00
+1026,70945,CC-FLT-135 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-135,Debit,1,0,USD,2023-01-01 09:00:00
+1027,70946,CC-FLT-140 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-140,Debit,1,0,USD,2023-01-01 09:00:00
+1028,70947,CC-FLT-145 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-145,Debit,1,0,USD,2023-01-01 09:00:00
+1029,70948,CC-FLT-150 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-150,Debit,1,0,USD,2023-01-01 09:00:00
+1030,70949,CC-FLT-155 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-155,Debit,1,0,USD,2023-01-01 09:00:00
+1031,70950,CC-FLT-160 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-160,Debit,1,0,USD,2023-01-01 09:00:00
+1032,70951,CC-FLT-165 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-165,Debit,1,0,USD,2023-01-01 09:00:00
+1033,70952,CC-FLT-170 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-170,Debit,1,0,USD,2023-01-01 09:00:00
+1034,70953,CC-FLT-175 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-175,Debit,1,0,USD,2023-01-01 09:00:00
+1035,70954,CC-FLT-180 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-180,Debit,1,0,USD,2023-01-01 09:00:00
+1036,70955,CC-FLT-185 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-185,Debit,1,0,USD,2023-01-01 09:00:00
+1037,70956,CC-FLT-190 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-190,Debit,1,0,USD,2023-01-01 09:00:00
+1038,70957,CC-FLT-195 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-FLT-195,Debit,1,0,USD,2023-01-01 09:00:00
+1039,70958,CC-MNT-100 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-100,Debit,1,0,USD,2023-01-01 09:00:00
+1040,70959,CC-MNT-105 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-105,Debit,1,0,USD,2023-01-01 09:00:00
+1041,70960,CC-MNT-110 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-110,Debit,1,0,USD,2023-01-01 09:00:00
+1042,70961,CC-MNT-115 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-115,Debit,1,0,USD,2023-01-01 09:00:00
+1043,70962,CC-MNT-120 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-120,Debit,1,0,USD,2023-01-01 09:00:00
+1044,70963,CC-MNT-125 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-125,Debit,1,0,USD,2023-01-01 09:00:00
+1045,70964,CC-MNT-130 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-130,Debit,1,0,USD,2023-01-01 09:00:00
+1046,70965,CC-MNT-135 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-135,Debit,1,0,USD,2023-01-01 09:00:00
+1047,70966,CC-MNT-140 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-140,Debit,1,0,USD,2023-01-01 09:00:00
+1048,70967,CC-MNT-145 Payroll Allocation,Expense,Expense,5210,Payroll allocation detail for CC-MNT-145,Debit,1,0,USD,2023-01-01 09:00:00

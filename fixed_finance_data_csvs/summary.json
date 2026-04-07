@@ -1,0 +1,79 @@
+[
+  {
+    "file": "accounts_payable.csv",
+    "rows": 1800,
+    "columns": 15,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-30 00:00:00"
+  },
+  {
+    "file": "accounts_receivable.csv",
+    "rows": 1600,
+    "columns": 15,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-24 00:00:00"
+  },
+  {
+    "file": "Book1.csv",
+    "rows": 5000,
+    "columns": 16,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  },
+  {
+    "file": "chart_of_accounts.csv",
+    "rows": 1048,
+    "columns": 12,
+    "date_min": "2023-01-01 09:00:00",
+    "date_max": "2023-01-01 09:00:00"
+  },
+  {
+    "file": "daily_expense.csv",
+    "rows": 18632,
+    "columns": 12,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  },
+  {
+    "file": "daily_operating_cost.csv",
+    "rows": 1096,
+    "columns": 16,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  },
+  {
+    "file": "daily_profit.csv",
+    "rows": 1096,
+    "columns": 14,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  },
+  {
+    "file": "daily_revenue.csv",
+    "rows": 1096,
+    "columns": 17,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  },
+  {
+    "file": "general_ledger.csv",
+    "rows": 42744,
+    "columns": 15,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  },
+  {
+    "file": "profit_loss_statement.csv",
+    "rows": 1096,
+    "columns": 29,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  },
+  {
+    "file": "revenue_recognition.csv",
+    "rows": 5000,
+    "columns": 16,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2025-12-31 00:00:00"
+  }
+]
